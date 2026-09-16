@@ -1097,3 +1097,31 @@ footer.wp-block-template-part a:hover {
     gap: 18px;
   }
 }
+
+.club100-training-grid {
+  margin-top: 48px;
+}
+
+.club100-training-card {
+  height: 100%;
+}
+
+.club100-training-card figure {
+  margin: 0;
+}
+
+.club100-training-card-content {
+  min-height: 230px;
+}
+
+.club100-training-label {
+  margin: 0 0 8px;
+}
+
+.club100-training-closing {
+  margin-top: 36px;
+  margin-bottom: 0;
+
+  color: var(--club100-navy);
+  font-size: 17px;
+}
