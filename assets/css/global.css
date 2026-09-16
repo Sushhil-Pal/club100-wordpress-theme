@@ -89,8 +89,8 @@ a {
 }
 
 .club100-section-lg {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 88px;
+  padding-bottom: 72px;
 }
 
 .club100-section-sm {
@@ -442,6 +442,8 @@ a {
 }
 
 .club100-hero-copy h1 {
+  max-width: 560px;
+
   margin-top: 0;
   margin-bottom: 22px;
 
@@ -458,6 +460,8 @@ a {
 .club100-hero-image {
   display: flex;
   align-items: center;
+
+  transform: translateY(-8px);
 }
 
 .club100-hero-image figure {
@@ -502,6 +506,15 @@ a {
 
   font-size: 14px;
   font-weight: 600;
+}
+
+
+/* =========================================================
+   HOW CLUB100 WORKS
+   ========================================================= */
+
+#how-club100-works.club100-section {
+  padding-top: 64px;
 }
 
 
@@ -897,6 +910,7 @@ footer.wp-block-template-part a:hover {
   }
 
   .club100-hero-copy h1 {
+    max-width: 520px;
     font-size: clamp(40px, 5vw, 48px);
   }
 
@@ -934,6 +948,10 @@ footer.wp-block-template-part a:hover {
     padding-bottom: 40px;
   }
 
+  #how-club100-works.club100-section {
+    padding-top: 48px;
+  }
+
   .club100-hero {
     min-height: auto;
   }
@@ -955,6 +973,10 @@ footer.wp-block-template-part a:hover {
     max-width: none;
   }
 
+  .club100-hero-copy h1 {
+    max-width: none;
+  }
+
   .club100-hero-actions {
     flex-direction: column !important;
     align-items: stretch;
@@ -967,6 +989,7 @@ footer.wp-block-template-part a:hover {
 
   .club100-hero-image {
     margin-top: 16px;
+    transform: none;
   }
 
   .club100-report-image {
