@@ -1232,3 +1232,39 @@ footer.wp-block-template-part a:hover {
     min-height: 280px;
   }
 }
+
+.club100-trainer-grid {
+  margin-top: 48px;
+  margin-bottom: 36px;
+}
+
+.club100-trainer-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-lg);
+  box-shadow: var(--club100-shadow-soft);
+}
+
+.club100-trainer-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.club100-trainer-content {
+  padding: 22px;
+}
+
+.club100-trainer-content h3 {
+  margin: 0 0 10px;
+  font-size: 21px;
+}
+
+.club100-trainer-content p {
+  margin: 4px 0;
+  color: var(--club100-muted);
+  font-size: 15px;
+  line-height: 1.5;
+}
