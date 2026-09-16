@@ -1059,3 +1059,41 @@ footer.wp-block-template-part a:hover {
   color: var(--club100-navy);
   font-size: 17px;
 }
+
+.club100-report-copy {
+  max-width: 640px;
+}
+
+.club100-assessment-areas {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px 28px;
+  margin: 32px 0;
+}
+
+.club100-assessment-area h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.club100-assessment-area p {
+  margin: 0;
+  color: var(--club100-text-muted);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.club100-report-copy > p {
+  margin-bottom: 12px;
+}
+
+.club100-report-copy .wp-block-buttons {
+  margin-top: 28px;
+}
+
+@media (max-width: 767px) {
+  .club100-assessment-areas {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
