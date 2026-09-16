@@ -1,0 +1,338 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+
+  "settings": {
+    "appearanceTools": true,
+
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1200px"
+    },
+
+    "color": {
+      "custom": false,
+      "customGradient": false,
+      "customDuotone": false,
+      "defaultPalette": false,
+      "defaultGradients": false,
+
+      "palette": [
+        {
+          "slug": "navy",
+          "name": "Navy",
+          "color": "#12395B"
+        },
+        {
+          "slug": "blue",
+          "name": "Blue",
+          "color": "#2F80ED"
+        },
+        {
+          "slug": "blue-dark",
+          "name": "Blue Dark",
+          "color": "#1F6FD1"
+        },
+        {
+          "slug": "blue-light",
+          "name": "Blue Light",
+          "color": "#EAF4FC"
+        },
+        {
+          "slug": "blue-pale",
+          "name": "Blue Pale",
+          "color": "#F5FAFE"
+        },
+        {
+          "slug": "text",
+          "name": "Text",
+          "color": "#243746"
+        },
+        {
+          "slug": "text-muted",
+          "name": "Text Muted",
+          "color": "#66788A"
+        },
+        {
+          "slug": "border",
+          "name": "Border",
+          "color": "#D9E4EC"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#F7F9FB"
+        },
+        {
+          "slug": "white",
+          "name": "White",
+          "color": "#FFFFFF"
+        }
+      ]
+    },
+
+    "typography": {
+      "customFontSize": false,
+      "dropCap": false,
+      "lineHeight": true,
+      "fluid": true,
+
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Manrope\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "name": "Manrope",
+          "slug": "manrope"
+        }
+      ],
+
+      "fontSizes": [
+        {
+          "slug": "xs",
+          "size": "13px",
+          "name": "Extra Small"
+        },
+        {
+          "slug": "sm",
+          "size": "14px",
+          "name": "Small"
+        },
+        {
+          "slug": "base",
+          "size": "17px",
+          "name": "Body"
+        },
+        {
+          "slug": "lg",
+          "size": "19px",
+          "name": "Body Large"
+        },
+        {
+          "slug": "h4",
+          "size": "20px",
+          "name": "Heading 4"
+        },
+        {
+          "slug": "h3",
+          "size": "26px",
+          "name": "Heading 3"
+        },
+        {
+          "slug": "h2",
+          "size": "42px",
+          "name": "Heading 2"
+        },
+        {
+          "slug": "h1",
+          "size": "60px",
+          "name": "Heading 1"
+        }
+      ]
+    },
+
+    "spacing": {
+      "units": [
+        "px",
+        "rem",
+        "%",
+        "vw"
+      ],
+
+      "spacingSizes": [
+        {
+          "slug": "10",
+          "size": "4px",
+          "name": "2XS"
+        },
+        {
+          "slug": "20",
+          "size": "8px",
+          "name": "XS"
+        },
+        {
+          "slug": "30",
+          "size": "16px",
+          "name": "Small"
+        },
+        {
+          "slug": "40",
+          "size": "24px",
+          "name": "Medium"
+        },
+        {
+          "slug": "50",
+          "size": "40px",
+          "name": "Large"
+        },
+        {
+          "slug": "60",
+          "size": "64px",
+          "name": "XL"
+        },
+        {
+          "slug": "70",
+          "size": "80px",
+          "name": "2XL"
+        },
+        {
+          "slug": "80",
+          "size": "96px",
+          "name": "3XL"
+        }
+      ]
+    },
+
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+
+    "shadow": {
+      "defaultPresets": false,
+      "presets": [
+        {
+          "slug": "soft",
+          "name": "Soft",
+          "shadow": "0 4px 16px rgba(18, 57, 91, 0.06)"
+        },
+        {
+          "slug": "medium",
+          "name": "Medium",
+          "shadow": "0 10px 28px rgba(18, 57, 91, 0.10)"
+        }
+      ]
+    }
+  },
+
+  "styles": {
+    "color": {
+      "background": "#FFFFFF",
+      "text": "#243746"
+    },
+
+    "spacing": {
+      "blockGap": "24px"
+    },
+
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--manrope)",
+      "fontSize": "17px",
+      "lineHeight": "1.6"
+    },
+
+    "elements": {
+      "heading": {
+        "color": {
+          "text": "#12395B"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--manrope)",
+          "fontWeight": "700",
+          "lineHeight": "1.18"
+        }
+      },
+
+      "h1": {
+        "typography": {
+          "fontSize": "clamp(40px, 5vw, 60px)"
+        }
+      },
+
+      "h2": {
+        "typography": {
+          "fontSize": "clamp(32px, 4vw, 42px)"
+        }
+      },
+
+      "h3": {
+        "typography": {
+          "fontSize": "clamp(22px, 3vw, 26px)"
+        }
+      },
+
+      "h4": {
+        "typography": {
+          "fontSize": "clamp(18px, 2vw, 20px)"
+        }
+      },
+
+      "link": {
+        "color": {
+          "text": "#2F80ED"
+        },
+        "typography": {
+          "textDecoration": "none"
+        },
+        ":hover": {
+          "color": {
+            "text": "#1F6FD1"
+          }
+        }
+      },
+
+      "button": {
+        "color": {
+          "background": "#2F80ED",
+          "text": "#FFFFFF"
+        },
+        "border": {
+          "radius": "8px",
+          "width": "0"
+        },
+        "spacing": {
+          "padding": {
+            "top": "12px",
+            "right": "24px",
+            "bottom": "12px",
+            "left": "24px"
+          }
+        },
+        "typography": {
+          "fontWeight": "600",
+          "fontSize": "16px"
+        }
+      }
+    },
+
+    "blocks": {
+      "core/button": {
+        "border": {
+          "radius": "8px"
+        }
+      },
+
+      "core/group": {
+        "spacing": {
+          "blockGap": "24px"
+        }
+      },
+
+      "core/columns": {
+        "spacing": {
+          "blockGap": "32px"
+        }
+      },
+
+      "core/image": {
+        "border": {
+          "radius": "14px"
+        }
+      },
+
+      "core/quote": {
+        "border": {
+          "left": {
+            "color": "#2F80ED",
+            "width": "4px"
+          }
+        },
+        "spacing": {
+          "padding": {
+            "left": "20px"
+          }
+        }
+      }
+    }
+  }
+}

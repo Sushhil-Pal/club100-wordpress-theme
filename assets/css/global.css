@@ -1,0 +1,933 @@
+/* =========================================================
+   CLUB100 GLOBAL STYLES
+   ========================================================= */
+
+
+/* =========================================================
+   ROOT TOKENS
+   ========================================================= */
+
+:root {
+  --club100-navy: #12395B;
+  --club100-blue: #2F80ED;
+  --club100-blue-dark: #1F6FD1;
+  --club100-blue-light: #EAF4FC;
+  --club100-blue-pale: #F5FAFE;
+
+  --club100-text: #243746;
+  --club100-text-muted: #66788A;
+
+  --club100-border: #D9E4EC;
+  --club100-surface: #F7F9FB;
+  --club100-white: #FFFFFF;
+
+  --club100-radius-sm: 8px;
+  --club100-radius-md: 14px;
+  --club100-radius-lg: 18px;
+
+  --club100-shadow-sm: 0 4px 16px rgba(18, 57, 91, 0.06);
+  --club100-shadow-md: 0 10px 28px rgba(18, 57, 91, 0.10);
+
+  --club100-container: 1200px;
+}
+
+
+/* =========================================================
+   BASE
+   ========================================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--club100-text);
+  background: var(--club100-white);
+
+  font-family:
+    "Manrope",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  font-size: 17px;
+  line-height: 1.6;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  transition:
+    color 0.18s ease,
+    background-color 0.18s ease,
+    border-color 0.18s ease;
+}
+
+
+/* =========================================================
+   LAYOUT
+   ========================================================= */
+
+.club100-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.club100-section-lg {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.club100-section-sm {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.club100-container {
+  width: min(
+    calc(100% - 64px),
+    var(--club100-container)
+  );
+
+  margin-inline: auto;
+}
+
+.club100-text-container {
+  width: min(
+    calc(100% - 40px),
+    760px
+  );
+
+  margin-inline: auto;
+}
+
+.club100-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
+/* =========================================================
+   SECTION BACKGROUNDS
+   ========================================================= */
+
+.club100-bg-white {
+  background: var(--club100-white);
+}
+
+.club100-bg-light {
+  background: var(--club100-blue-pale);
+}
+
+.club100-bg-blue-light {
+  background: var(--club100-blue-light);
+}
+
+.club100-bg-surface {
+  background: var(--club100-surface);
+}
+
+.club100-bg-navy {
+  background: var(--club100-navy);
+  color: var(--club100-white);
+}
+
+
+/* =========================================================
+   TYPOGRAPHY
+   ========================================================= */
+
+.club100-eyebrow {
+  margin: 0 0 14px;
+
+  color: var(--club100-blue);
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+}
+
+.club100-section-title {
+  max-width: 760px;
+  margin-bottom: 16px;
+}
+
+.club100-section-intro {
+  max-width: 700px;
+
+  color: var(--club100-text-muted);
+
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.club100-text-muted {
+  color: var(--club100-text-muted);
+}
+
+.club100-center {
+  text-align: center;
+}
+
+.club100-center .club100-section-title,
+.club100-center .club100-section-intro {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.wp-block-button__link {
+  min-height: 48px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: var(--club100-radius-sm);
+
+  font-weight: 600;
+
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.wp-block-button__link:hover {
+  background: var(--club100-blue-dark);
+}
+
+.wp-block-button__link:focus-visible {
+  outline: 3px solid rgba(47, 128, 237, 0.25);
+  outline-offset: 3px;
+}
+
+
+/* Secondary button */
+
+.wp-block-button.is-style-secondary .wp-block-button__link {
+  background: transparent;
+
+  color: var(--club100-blue);
+
+  border: 1px solid var(--club100-blue);
+}
+
+.wp-block-button.is-style-secondary .wp-block-button__link:hover {
+  background: var(--club100-blue-pale);
+
+  color: var(--club100-blue-dark);
+
+  border-color: var(--club100-blue-dark);
+}
+
+
+/* White button for dark/navy backgrounds */
+
+.wp-block-button.is-style-light .wp-block-button__link {
+  background: var(--club100-white);
+
+  color: var(--club100-navy);
+}
+
+.wp-block-button.is-style-light .wp-block-button__link:hover {
+  background: var(--club100-blue-light);
+
+  color: var(--club100-navy);
+}
+
+
+/* =========================================================
+   CARDS
+   ========================================================= */
+
+.club100-card,
+.wp-block-group.is-style-club100-card {
+  background: var(--club100-white);
+
+  border: 1px solid var(--club100-border);
+
+  border-radius: var(--club100-radius-md);
+
+  padding: 28px;
+}
+
+.club100-card-soft {
+  background: var(--club100-blue-pale);
+
+  border-radius: var(--club100-radius-md);
+
+  padding: 28px;
+}
+
+.club100-card-shadow {
+  box-shadow: var(--club100-shadow-sm);
+}
+
+.club100-card-hover {
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.club100-card-hover:hover {
+  transform: translateY(-3px);
+
+  box-shadow: var(--club100-shadow-md);
+}
+
+
+/* =========================================================
+   GRID HELPERS
+   ========================================================= */
+
+.club100-grid-2 {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 32px;
+}
+
+.club100-grid-3 {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 28px;
+}
+
+.club100-grid-4 {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 24px;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background:
+    rgba(255, 255, 255, 0.97);
+
+  border-bottom:
+    1px solid var(--club100-border);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.site-header > .wp-block-group {
+  min-height: 76px;
+
+  width: min(
+    calc(100% - 64px),
+    var(--club100-container)
+  );
+
+  margin-inline: auto;
+}
+
+.site-header .wp-block-site-title {
+  margin: 0;
+
+  color: var(--club100-navy);
+
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.site-header .wp-block-site-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header.is-scrolled {
+  box-shadow: var(--club100-shadow-sm);
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.club100-hero {
+  min-height: 680px;
+
+  display: flex;
+  align-items: center;
+}
+
+.club100-hero-grid {
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 56px;
+
+  align-items: center;
+}
+
+.club100-hero-copy {
+  max-width: 600px;
+}
+
+.club100-hero-copy h1 {
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.club100-hero-copy > p:not(.club100-eyebrow):not(.club100-trust-line) {
+  color: var(--club100-text-muted);
+}
+
+.club100-hero-actions {
+  display: flex;
+
+  gap: 14px;
+
+  flex-wrap: wrap;
+
+  margin-top: 28px;
+}
+
+.club100-trust-line {
+  margin-top: 18px;
+
+  color: var(--club100-text-muted);
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.club100-hero-image img {
+  width: 100%;
+
+  aspect-ratio: 5 / 4;
+
+  object-fit: cover;
+
+  border-radius: var(--club100-radius-lg);
+
+  box-shadow: var(--club100-shadow-sm);
+}
+
+
+/* =========================================================
+   PROCESS
+   ASSESS / TRAIN / TRACK / REASSESS
+   ========================================================= */
+
+.club100-process {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 24px;
+}
+
+.club100-process-step {
+  position: relative;
+}
+
+.club100-process-icon {
+  width: 52px;
+  height: 52px;
+
+  display: grid;
+  place-items: center;
+
+  margin-bottom: 18px;
+
+  background: var(--club100-blue-light);
+
+  color: var(--club100-blue);
+
+  border-radius: 50%;
+}
+
+.club100-process-step h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.club100-process-step p {
+  margin-bottom: 0;
+
+  color: var(--club100-text-muted);
+}
+
+
+/* =========================================================
+   FITNESS REPORT
+   ========================================================= */
+
+.club100-report-grid {
+  display: grid;
+
+  grid-template-columns:
+    0.9fr 1.1fr;
+
+  gap: 56px;
+
+  align-items: center;
+}
+
+.club100-report-image img {
+  width: 100%;
+
+  border-radius: var(--club100-radius-md);
+
+  box-shadow: var(--club100-shadow-md);
+}
+
+.club100-checklist {
+  display: grid;
+
+  gap: 12px;
+
+  margin: 24px 0;
+}
+
+.club100-checklist-item {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 10px;
+}
+
+.club100-checklist-item::before {
+  content: "✓";
+
+  flex: 0 0 auto;
+
+  color: var(--club100-blue);
+
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   POWER / FLOW / PULSE / PLAY
+   ========================================================= */
+
+.club100-training-card {
+  overflow: hidden;
+
+  background: var(--club100-white);
+
+  border: 1px solid var(--club100-border);
+
+  border-radius: var(--club100-radius-md);
+}
+
+.club100-training-card img {
+  width: 100%;
+
+  aspect-ratio: 4 / 3;
+
+  object-fit: cover;
+
+  border-radius: 0;
+}
+
+.club100-training-card-content {
+  padding: 22px;
+}
+
+.club100-training-card-content h3 {
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.club100-training-card-content p {
+  margin-bottom: 0;
+
+  color: var(--club100-text-muted);
+}
+
+.club100-training-label {
+  color: var(--club100-blue);
+
+  font-size: 13px;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+}
+
+
+/* =========================================================
+   PROGRAM CARDS
+   SOCIETY / CORPORATE
+   ========================================================= */
+
+.club100-program-card {
+  position: relative;
+
+  overflow: hidden;
+
+  min-height: 420px;
+
+  border-radius: var(--club100-radius-lg);
+}
+
+.club100-program-card img {
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.club100-program-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(18, 57, 91, 0.92),
+      rgba(18, 57, 91, 0.10)
+    );
+}
+
+.club100-program-content {
+  position: absolute;
+
+  inset-inline: 28px;
+
+  bottom: 28px;
+
+  z-index: 2;
+
+  color: var(--club100-white);
+}
+
+.club100-program-content h3,
+.club100-program-content p {
+  color: var(--club100-white);
+}
+
+.club100-program-content p {
+  opacity: 0.9;
+}
+
+
+/* =========================================================
+   BENEFITS
+   ========================================================= */
+
+.club100-benefit {
+  text-align: left;
+}
+
+.club100-benefit-icon {
+  width: 48px;
+  height: 48px;
+
+  display: grid;
+  place-items: center;
+
+  margin-bottom: 16px;
+
+  background: var(--club100-blue-light);
+
+  color: var(--club100-blue);
+
+  border-radius: 50%;
+}
+
+.club100-benefit h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.club100-benefit p {
+  margin-bottom: 0;
+
+  color: var(--club100-text-muted);
+}
+
+
+/* =========================================================
+   TESTIMONIALS
+   ========================================================= */
+
+.club100-testimonial {
+  background: var(--club100-white);
+
+  border: 1px solid var(--club100-border);
+
+  border-radius: var(--club100-radius-md);
+
+  padding: 26px;
+}
+
+.club100-testimonial-quote {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.club100-testimonial-author {
+  margin-top: 18px;
+
+  color: var(--club100-navy);
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   TRAINERS
+   ========================================================= */
+
+.club100-trainer-card img {
+  width: 100%;
+
+  aspect-ratio: 4 / 5;
+
+  object-fit: cover;
+
+  border-radius: var(--club100-radius-md);
+}
+
+.club100-trainer-card h3 {
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.club100-trainer-meta {
+  margin: 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 14px;
+}
+
+
+/* =========================================================
+   FINAL CTA
+   ========================================================= */
+
+.club100-final-cta {
+  padding: 72px 40px;
+
+  background: var(--club100-navy);
+
+  color: var(--club100-white);
+
+  text-align: center;
+
+  border-radius: var(--club100-radius-lg);
+}
+
+.club100-final-cta h2 {
+  max-width: 760px;
+
+  margin-top: 0;
+  margin-inline: auto;
+
+  color: var(--club100-white);
+}
+
+.club100-final-cta p {
+  max-width: 640px;
+
+  margin: 16px auto 28px;
+
+  color: #D9E8F5;
+}
+
+.club100-final-cta .wp-block-buttons {
+  justify-content: center;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.site-footer,
+footer.wp-block-template-part {
+  background: var(--club100-navy);
+
+  color: var(--club100-white);
+}
+
+.site-footer a,
+footer.wp-block-template-part a {
+  color: #D9E8F5;
+}
+
+.site-footer a:hover,
+footer.wp-block-template-part a:hover {
+  color: var(--club100-white);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1023px) {
+
+  .club100-grid-4,
+  .club100-process {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .club100-grid-3 {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .club100-hero-grid,
+  .club100-report-grid {
+    gap: 40px;
+  }
+
+  .site-header > .wp-block-group {
+    width: min(
+      calc(100% - 48px),
+      var(--club100-container)
+    );
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  .club100-container {
+    width: min(
+      calc(100% - 40px),
+      var(--club100-container)
+    );
+  }
+
+  .club100-section,
+  .club100-section-lg {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .club100-section-sm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .club100-hero {
+    min-height: auto;
+  }
+
+  .club100-hero-grid,
+  .club100-report-grid,
+  .club100-grid-2,
+  .club100-grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .club100-grid-4,
+  .club100-process {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .club100-hero-copy {
+    max-width: none;
+  }
+
+  .club100-hero-actions {
+    flex-direction: column;
+  }
+
+  .club100-hero-actions .wp-block-button,
+  .club100-hero-actions .wp-block-button__link {
+    width: 100%;
+  }
+
+  .club100-report-image {
+    order: -1;
+  }
+
+  .club100-program-card {
+    min-height: 340px;
+  }
+
+  .club100-final-cta {
+    padding: 48px 22px;
+  }
+
+  .site-header > .wp-block-group {
+    min-height: 64px;
+
+    width: min(
+      calc(100% - 40px),
+      var(--club100-container)
+    );
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .club100-grid-4,
+  .club100-process {
+    grid-template-columns: 1fr;
+  }
+
+  .club100-card,
+  .wp-block-group.is-style-club100-card,
+  .club100-card-soft {
+    padding: 22px;
+  }
+
+  .club100-section-intro {
+    font-size: 17px;
+  }
+}
