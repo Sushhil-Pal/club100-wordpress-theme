@@ -42,6 +42,7 @@ html {
 
 body {
   margin: 0;
+
   color: var(--club100-text);
   background: var(--club100-white);
 
@@ -98,21 +99,25 @@ a {
 }
 
 .club100-container {
-  width: min(
-    calc(100% - 64px),
-    var(--club100-container)
-  );
+  width: 100%;
+  max-width: var(--club100-container);
 
-  margin-inline: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .club100-text-container {
-  width: min(
-    calc(100% - 40px),
-    760px
-  );
+  width: 100%;
+  max-width: 760px;
 
-  margin-inline: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .club100-stack {
@@ -186,7 +191,12 @@ a {
   text-align: center;
 }
 
-.club100-center .club100-section-title,
+.club100-center .club100-section-title {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .club100-center .club100-section-intro {
   margin-left: auto;
   margin-right: auto;
@@ -352,14 +362,16 @@ a {
 }
 
 .site-header > .wp-block-group {
+  width: 100%;
+  max-width: var(--club100-container);
+
   min-height: 76px;
 
-  width: min(
-    calc(100% - 64px),
-    var(--club100-container)
-  );
+  padding-left: 32px;
+  padding-right: 32px;
 
-  margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-header .wp-block-site-title {
@@ -376,6 +388,27 @@ a {
   text-decoration: none;
 }
 
+.site-header .wp-block-navigation {
+  flex-wrap: nowrap;
+}
+
+.site-header .wp-block-navigation__container {
+  flex-wrap: nowrap;
+  gap: 22px;
+}
+
+.site-header .wp-block-navigation-item {
+  white-space: nowrap;
+}
+
+.site-header .wp-block-button__link {
+  min-height: 44px;
+
+  padding: 10px 20px;
+
+  font-size: 15px;
+}
+
 .site-header.is-scrolled {
   box-shadow: var(--club100-shadow-sm);
 }
@@ -386,7 +419,8 @@ a {
    ========================================================= */
 
 .club100-hero {
-  min-height: 590px;
+  min-height: 540px;
+
   display: flex;
   align-items: center;
 }
@@ -395,9 +429,10 @@ a {
   display: grid;
 
   grid-template-columns:
-    1.05fr 0.95fr;
+    minmax(0, 1fr)
+    minmax(420px, 0.9fr);
 
-  gap: 64px;
+  gap: 72px;
 
   align-items: center;
 }
@@ -416,6 +451,7 @@ a {
 
 .club100-hero-copy > p:not(.club100-eyebrow):not(.club100-trust-line) {
   max-width: 570px;
+
   color: var(--club100-text-muted);
 }
 
@@ -432,7 +468,7 @@ a {
 .club100-hero-image img {
   width: 100%;
 
-  aspect-ratio: 5 / 4;
+  aspect-ratio: 4 / 3;
 
   object-fit: cover;
 
@@ -849,12 +885,13 @@ footer.wp-block-template-part a:hover {
   }
 
   .club100-hero {
-    min-height: 540px;
+    min-height: 520px;
   }
 
   .club100-hero-grid {
     grid-template-columns:
-      1.05fr 0.95fr;
+      minmax(0, 1fr)
+      minmax(320px, 0.9fr);
 
     gap: 36px;
   }
@@ -867,11 +904,14 @@ footer.wp-block-template-part a:hover {
     gap: 40px;
   }
 
+  .club100-container,
   .site-header > .wp-block-group {
-    width: min(
-      calc(100% - 48px),
-      var(--club100-container)
-    );
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .site-header .wp-block-navigation__container {
+    gap: 16px;
   }
 }
 
@@ -879,10 +919,8 @@ footer.wp-block-template-part a:hover {
 @media (max-width: 767px) {
 
   .club100-container {
-    width: min(
-      calc(100% - 40px),
-      var(--club100-container)
-    );
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .club100-section,
@@ -927,6 +965,10 @@ footer.wp-block-template-part a:hover {
     width: 100%;
   }
 
+  .club100-hero-image {
+    margin-top: 16px;
+  }
+
   .club100-report-image {
     order: -1;
   }
@@ -942,10 +984,8 @@ footer.wp-block-template-part a:hover {
   .site-header > .wp-block-group {
     min-height: 64px;
 
-    width: min(
-      calc(100% - 40px),
-      var(--club100-container)
-    );
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
