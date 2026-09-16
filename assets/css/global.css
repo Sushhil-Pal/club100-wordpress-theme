@@ -1125,3 +1125,46 @@ footer.wp-block-template-part a:hover {
   color: var(--club100-navy);
   font-size: 17px;
 }
+
+.club100-program-grid {
+  margin-top: 48px;
+}
+
+.club100-program-card figure {
+  margin: 0;
+}
+
+.club100-program-kicker {
+  margin: 0 0 8px;
+
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+
+  color: #D9E8F5;
+}
+
+.club100-program-content h3 {
+  max-width: 480px;
+
+  margin-top: 0;
+  margin-bottom: 12px;
+
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.club100-program-content > p:not(.club100-program-kicker) {
+  max-width: 500px;
+
+  margin-bottom: 22px;
+
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.club100-program-card .wp-block-buttons {
+  margin-top: 18px;
+}
