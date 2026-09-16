@@ -1030,3 +1030,32 @@ footer.wp-block-template-part a:hover {
     font-size: 17px;
   }
 }
+
+
+.club100-process {
+  margin-top: 48px;
+}
+
+.club100-process-step {
+  min-height: 250px;
+}
+
+.club100-process-icon {
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.club100-process-step {
+  text-align: center;
+}
+
+.club100-process-closing {
+  margin-top: 36px;
+  margin-bottom: 0;
+
+  color: var(--club100-navy);
+  font-size: 17px;
+}
