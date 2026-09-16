@@ -1452,3 +1452,151 @@ footer.wp-block-template-part a:hover {
     gap: 10px;
   }
 }
+
+/* =========================================================
+   HOMEPAGE POLISH — SAFE OVERRIDES
+   Preserve existing layout/grid structure
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   1. HERO CTA HIERARCHY
+   --------------------------------------------------------- */
+
+.club100-hero-actions .wp-block-button:first-child .wp-block-button__link {
+  background: var(--club100-blue);
+  color: var(--club100-white);
+  border: 1px solid var(--club100-blue);
+  box-shadow: 0 4px 14px rgba(47, 128, 237, 0.18);
+}
+
+.club100-hero-actions .wp-block-button:first-child .wp-block-button__link:hover {
+  background: var(--club100-blue-dark);
+  border-color: var(--club100-blue-dark);
+  color: var(--club100-white);
+}
+
+
+/* ---------------------------------------------------------
+   2. PROGRAM CARDS
+   Improve readability without changing layout
+   --------------------------------------------------------- */
+
+.club100-program-overlay {
+  background:
+    linear-gradient(
+      to top,
+      rgba(18, 57, 91, 0.96) 0%,
+      rgba(18, 57, 91, 0.72) 42%,
+      rgba(18, 57, 91, 0.10) 78%
+    );
+}
+
+.club100-program-content h3 {
+  color: var(--club100-white);
+}
+
+.club100-program-content > p:not(.club100-program-kicker) {
+  color: rgba(255, 255, 255, 0.90);
+}
+
+.club100-program-card .wp-block-button__link {
+  background: var(--club100-white);
+  color: var(--club100-navy);
+  border: 1px solid var(--club100-white);
+}
+
+.club100-program-card .wp-block-button__link:hover {
+  background: var(--club100-blue-light);
+  color: var(--club100-navy);
+}
+
+
+/* ---------------------------------------------------------
+   3. WHY CLUB100
+   Slightly stronger icons
+   --------------------------------------------------------- */
+
+.club100-benefit-icon {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+/* ---------------------------------------------------------
+   4. TRAINER VARIABLE FIXES
+   --------------------------------------------------------- */
+
+.club100-trainer-card {
+  box-shadow: var(--club100-shadow-sm);
+}
+
+.club100-trainer-content p {
+  color: var(--club100-text-muted);
+}
+
+
+/* ---------------------------------------------------------
+   5. FINAL CTA
+   Strengthen contrast only — no sizing/layout changes
+   --------------------------------------------------------- */
+
+.club100-final-cta {
+  background: var(--club100-navy);
+  color: var(--club100-white);
+}
+
+.club100-final-cta .club100-eyebrow,
+.club100-final-cta .club100-eyebrow-light {
+  color: #BFD7EC;
+}
+
+.club100-final-cta h2,
+.club100-final-cta .club100-final-cta-title {
+  color: var(--club100-white);
+}
+
+.club100-final-cta p,
+.club100-final-cta .club100-final-cta-copy {
+  color: #DCE8F2;
+}
+
+.club100-final-cta .wp-block-button:not(.is-style-light) .wp-block-button__link {
+  background: var(--club100-white);
+  color: var(--club100-navy);
+  border: 1px solid var(--club100-white);
+}
+
+.club100-final-cta .wp-block-button:not(.is-style-light) .wp-block-button__link:hover {
+  background: var(--club100-blue-light);
+  color: var(--club100-navy);
+}
+
+.club100-final-cta .wp-block-button.is-style-light .wp-block-button__link {
+  background: transparent;
+  color: var(--club100-white);
+  border: 1px solid rgba(255, 255, 255, 0.70);
+}
+
+.club100-final-cta .wp-block-button.is-style-light .wp-block-button__link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--club100-white);
+}
+
+
+/* ---------------------------------------------------------
+   6. FOOTER
+   Slight contrast improvement
+   --------------------------------------------------------- */
+
+.club100-footer {
+  background: #0E2D47;
+}
+
+.club100-footer-column a {
+  color: #C8D8E5;
+}
+
+.club100-footer-column a:hover {
+  color: var(--club100-white);
+}
