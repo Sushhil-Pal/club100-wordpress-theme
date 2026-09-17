@@ -42,7 +42,7 @@
 
 					<!-- wp:button -->
 					<div class="wp-block-button">
-						<a class="wp-block-button__link wp-element-button" href="/contact/">
+						<a class="wp-block-button__link wp-element-button" href="/fitness-assessment/">
 							Book a Fitness Assessment
 						</a>
 					</div>
