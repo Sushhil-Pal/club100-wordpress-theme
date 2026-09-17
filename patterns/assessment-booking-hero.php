@@ -70,7 +70,7 @@
 
 				<p>
 					Complete the form and our team will contact you to confirm
-					your assessment.
+					your assessment Test.
 				</p>
 
 				<div class="club100-assessment-form">
