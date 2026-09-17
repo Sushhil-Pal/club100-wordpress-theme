@@ -74,8 +74,11 @@
 				</p>
 
 				<div class="club100-assessment-form">
-					<!-- Replace 1 with your actual Fluent Forms form ID -->
+
+					<!-- wp:shortcode -->
 					[fluentform id="3"]
+					<!-- /wp:shortcode -->
+
 				</div>
 
 			</div>
