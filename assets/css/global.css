@@ -1813,3 +1813,71 @@ footer.wp-block-template-part a:hover {
     padding: 24px 20px;
   }
 }
+
+
+/* =========================================================
+   FITNESS ASSESSMENT — WHAT WE MEASURE
+   ========================================================= */
+
+.club100-assessment-measures {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 44px;
+}
+
+.club100-assessment-measure {
+  padding: 24px 20px;
+
+  background: var(--club100-blue-pale);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-md);
+}
+
+.club100-assessment-measure-icon {
+  width: 44px;
+  height: 44px;
+
+  display: grid;
+  place-items: center;
+
+  margin-bottom: 18px;
+
+  background: var(--club100-blue-light);
+  color: var(--club100-blue);
+
+  border-radius: 50%;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.club100-assessment-measure h3 {
+  margin: 0 0 10px;
+
+  color: var(--club100-navy);
+
+  font-size: 19px;
+}
+
+.club100-assessment-measure p {
+  margin: 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+@media (max-width: 1023px) {
+  .club100-assessment-measures {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .club100-assessment-measures {
+    grid-template-columns: 1fr;
+  }
+}
