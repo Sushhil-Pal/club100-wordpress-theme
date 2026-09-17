@@ -6,18 +6,26 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 function club100_enqueue_assets() {
 
+    $theme_css_path = get_stylesheet_directory() . '/style.css';
+
     wp_enqueue_style(
         'club100-style',
         get_stylesheet_uri(),
         array(),
-        wp_get_theme()->get( 'Version' )
+        file_exists( $theme_css_path )
+            ? filemtime( $theme_css_path )
+            : wp_get_theme()->get( 'Version' )
     );
+
+    $global_css_path = get_template_directory() . '/assets/css/global.css';
 
     wp_enqueue_style(
         'club100-global',
         get_template_directory_uri() . '/assets/css/global.css',
         array( 'club100-style' ),
-        wp_get_theme()->get( 'Version' )
+        file_exists( $global_css_path )
+            ? filemtime( $global_css_path )
+            : wp_get_theme()->get( 'Version' )
     );
 }
 
