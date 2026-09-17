@@ -2254,3 +2254,118 @@ footer.wp-block-template-part a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   FITNESS ASSESSMENT — DISCLAIMER
+   ========================================================= */
+
+.club100-assessment-disclaimer {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 20px;
+  align-items: start;
+
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.club100-assessment-disclaimer-icon {
+  width: 44px;
+  height: 44px;
+
+  display: grid;
+  place-items: center;
+
+  background: var(--club100-blue-light);
+  color: var(--club100-blue);
+
+  border-radius: 50%;
+
+  font-weight: 800;
+}
+
+.club100-assessment-disclaimer h3 {
+  margin: 0 0 8px;
+  color: var(--club100-navy);
+  font-size: 18px;
+}
+
+.club100-assessment-disclaimer p {
+  margin: 6px 0 0;
+  color: var(--club100-text-muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   FITNESS ASSESSMENT — FINAL CTA
+   ========================================================= */
+
+.club100-assessment-final-cta {
+  padding: 80px 0;
+
+  background: var(--club100-navy);
+  color: var(--club100-white);
+}
+
+.club100-assessment-final-cta .club100-container {
+  max-width: 820px;
+}
+
+.club100-assessment-final-cta h2 {
+  max-width: 720px;
+  margin: 0 auto 18px;
+
+  color: var(--club100-white);
+
+  font-size: clamp(34px, 4vw, 46px);
+}
+
+.club100-assessment-final-copy {
+  max-width: 660px;
+  margin: 0 auto 28px;
+
+  color: #DCE8F2;
+
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.club100-assessment-final-cta .wp-block-buttons {
+  justify-content: center;
+  gap: 14px;
+}
+
+.club100-assessment-final-cta .wp-block-button:not(.is-style-light) .wp-block-button__link {
+  background: var(--club100-white);
+  color: var(--club100-navy);
+}
+
+.club100-assessment-final-cta .wp-block-button.is-style-light .wp-block-button__link {
+  background: transparent;
+
+  color: var(--club100-white);
+
+  border: 1px solid rgba(255,255,255,0.7);
+}
+
+@media (max-width: 600px) {
+
+  .club100-assessment-disclaimer {
+    grid-template-columns: 1fr;
+  }
+
+  .club100-assessment-final-cta {
+    padding: 60px 0;
+  }
+
+  .club100-assessment-final-cta .wp-block-buttons {
+    flex-direction: column;
+  }
+
+  .club100-assessment-final-cta .wp-block-button,
+  .club100-assessment-final-cta .wp-block-button__link {
+    width: 100%;
+  }
+}
