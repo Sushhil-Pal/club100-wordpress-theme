@@ -3064,3 +3064,83 @@ footer.wp-block-template-part a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   CORPORATE — FINAL CTA
+   ========================================================= */
+
+.club100-corporate-final-cta {
+  max-width: 820px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.club100-corporate-final-cta h2 {
+  margin: 0 0 18px;
+
+  color: #fff;
+
+  font-size: clamp(34px, 5vw, 48px);
+  line-height: 1.1;
+}
+
+.club100-corporate-final-cta > p:not(.club100-eyebrow) {
+  max-width: 680px;
+
+  margin: 0 auto;
+
+  color: #DCE8F2;
+
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.club100-eyebrow-light {
+  color: #9FC6E8;
+}
+
+.club100-corporate-final-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 14px;
+
+  margin-top: 30px;
+}
+
+.club100-button-primary-light {
+  background: #fff !important;
+  color: var(--club100-navy) !important;
+
+  border: 1px solid #fff !important;
+}
+
+.club100-button-primary-light:hover {
+  background: var(--club100-blue-light) !important;
+}
+
+.club100-button-outline-light {
+  background: transparent !important;
+  color: #fff !important;
+
+  border: 1px solid rgba(255,255,255,.55) !important;
+}
+
+.club100-button-outline-light:hover {
+  background: rgba(255,255,255,.08) !important;
+  border-color: #fff !important;
+}
+
+@media (max-width: 600px) {
+
+  .club100-corporate-final-actions {
+    flex-direction: column;
+  }
+
+  .club100-corporate-final-actions .wp-element-button {
+    width: 100%;
+    text-align: center;
+  }
+}
