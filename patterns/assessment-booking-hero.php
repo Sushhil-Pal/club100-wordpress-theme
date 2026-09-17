@@ -70,14 +70,12 @@
 
 				<p>
 					Complete the form and our team will contact you to confirm
-					your assessment Test.
+					your assessment Test1.
 				</p>
 
 				<div class="club100-assessment-form">
 
-					<!-- wp:shortcode -->
-					[fluentform id="3"]
-					<!-- /wp:shortcode -->
+					<?php echo do_shortcode( '[fluentform id="3"]' ); ?>
 
 				</div>
 
