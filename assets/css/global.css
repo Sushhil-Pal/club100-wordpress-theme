@@ -4886,3 +4886,32 @@ footer.wp-block-template-part a:hover {
 .club100-legal-content a {
   color: var(--club100-blue);
 }
+
+
+/* =========================================================
+   CLUB100 HEADER LOGO
+   ========================================================= */
+
+.club100-header-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+
+  text-decoration: none;
+}
+
+.club100-header-logo img {
+  display: block;
+
+  width: auto;
+  height: 48px;
+
+  object-fit: contain;
+}
+
+@media (max-width: 767px) {
+
+  .club100-header-logo img {
+    height: 40px;
+  }
+}
