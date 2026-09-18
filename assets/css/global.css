@@ -4904,7 +4904,7 @@ footer.wp-block-template-part a:hover {
   display: block;
 
   width: auto;
-  height: 48px;
+  height: 60px;
 
   object-fit: contain;
 }
@@ -4912,6 +4912,182 @@ footer.wp-block-template-part a:hover {
 @media (max-width: 767px) {
 
   .club100-header-logo img {
-    height: 40px;
+    height: 50px;
   }
+}
+
+/* =========================================================
+   HEADER — MOBILE NAVIGATION
+   ========================================================= */
+
+/* Mobile-only Book Assessment item inside overlay */
+.club100-mobile-book {
+  display: none;
+}
+
+@media (max-width: 767px) {
+
+  .site-header {
+    position: relative;
+    z-index: 1000;
+  }
+
+  .club100-header-inner {
+    width: 100%;
+  }
+
+  .club100-header-actions {
+    margin-left: auto;
+  }
+
+  /* Hide desktop CTA on mobile.
+     Mobile CTA is inside the navigation overlay. */
+  .club100-header-cta {
+    display: none !important;
+  }
+
+  /* Hamburger */
+  .site-header .wp-block-navigation__responsive-container-open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    padding: 0;
+
+    color: var(--club100-navy);
+
+    border-radius: var(--club100-radius-sm);
+  }
+
+  .site-header .wp-block-navigation__responsive-container-open svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* Full-screen menu */
+  .site-header .wp-block-navigation__responsive-container.is-menu-open {
+    position: fixed !important;
+    inset: 0 !important;
+
+    width: 100vw !important;
+    height: 100dvh !important;
+
+    display: flex !important;
+
+    padding: 0 !important;
+
+    background: var(--club100-white) !important;
+
+    z-index: 99999 !important;
+
+    overflow-y: auto;
+  }
+
+  /* Close button */
+  .site-header .wp-block-navigation__responsive-container-close {
+    position: absolute;
+
+    top: 20px;
+    right: 22px;
+
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--club100-navy);
+
+    z-index: 2;
+  }
+
+  .site-header .wp-block-navigation__responsive-container-close svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Menu content wrapper */
+  .site-header
+  .wp-block-navigation__responsive-container.is-menu-open
+  .wp-block-navigation__responsive-container-content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    padding: 92px 28px 40px !important;
+  }
+
+  /* Menu list */
+  .site-header
+  .wp-block-navigation__responsive-container.is-menu-open
+  .wp-block-navigation__container {
+    width: 100%;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+
+    gap: 0 !important;
+  }
+
+  /* Individual links */
+  .site-header
+  .wp-block-navigation__responsive-container.is-menu-open
+  .wp-block-navigation-item {
+    width: 100%;
+
+    border-bottom: 1px solid var(--club100-border);
+  }
+
+  .site-header
+  .wp-block-navigation__responsive-container.is-menu-open
+  .wp-block-navigation-item__content {
+    width: 100%;
+
+    display: block;
+
+    padding: 18px 2px !important;
+
+    color: var(--club100-navy) !important;
+
+    font-size: 21px !important;
+    font-weight: 600;
+
+    text-decoration: none;
+  }
+
+  /* Book Assessment becomes the prominent mobile CTA */
+  .site-header
+  .wp-block-navigation__responsive-container.is-menu-open
+  .club100-mobile-book {
+    display: block;
+
+    margin-top: 28px;
+
+    border-bottom: 0;
+  }
+
+  .site-header
+  .wp-block-navigation__responsive-container.is-menu-open
+  .club100-mobile-book
+  .wp-block-navigation-item__content {
+    padding: 15px 22px !important;
+
+    background: var(--club100-blue);
+
+    color: #fff !important;
+
+    border-radius: var(--club100-radius-sm);
+
+    text-align: center;
+    font-size: 16px !important;
+    font-weight: 700;
+  }
+
 }

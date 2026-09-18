@@ -1,29 +1,30 @@
 <!-- wp:group {"align":"full","className":"site-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull site-header">
 
-	<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
-	<div class="wp-block-group">
+	<!-- wp:group {"className":"club100-header-inner","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+	<div class="wp-block-group club100-header-inner">
 
 		<a href="/" class="club100-header-logo" aria-label="Club100 Home">
 			<img
-				src="/wp-content/themes/club100/assets/images/club100-logo/club100-logo-horizontal.png"
+				src="/wp-content/themes/club100/assets/images/club100-logo/club100-wordmark-light.png"
 				alt="Club100"
 			/>
 		</a>
 
-		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
-		<div class="wp-block-group">
+		<!-- wp:group {"className":"club100-header-actions","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+		<div class="wp-block-group club100-header-actions">
 
-			<!-- wp:navigation {"overlayMenu":"mobile","layout":{"type":"flex","justifyContent":"right"}} -->
-				<!-- wp:navigation-link {"label":"How It Works","url":"#how-club100-works","kind":"custom"} /-->
+			<!-- wp:navigation {"overlayMenu":"mobile","className":"club100-main-nav","layout":{"type":"flex","justifyContent":"right"}} -->
 				<!-- wp:navigation-link {"label":"Corporate","url":"/corporate/","kind":"custom"} /-->
 				<!-- wp:navigation-link {"label":"Societies","url":"/societies/","kind":"custom"} /-->
 				<!-- wp:navigation-link {"label":"About","url":"/about/","kind":"custom"} /-->
 				<!-- wp:navigation-link {"label":"Contact","url":"/contact/","kind":"custom"} /-->
+				<!-- wp:navigation-link {"label":"Book Assessment","url":"/fitness-assessment/","kind":"custom","className":"club100-mobile-book"} /-->
 			<!-- /wp:navigation -->
 
-			<!-- wp:buttons -->
-			<div class="wp-block-buttons">
+			<!-- wp:buttons {"className":"club100-header-cta"} -->
+			<div class="wp-block-buttons club100-header-cta">
+
 				<!-- wp:button -->
 				<div class="wp-block-button">
 					<a
@@ -34,6 +35,7 @@
 					</a>
 				</div>
 				<!-- /wp:button -->
+
 			</div>
 			<!-- /wp:buttons -->
 
