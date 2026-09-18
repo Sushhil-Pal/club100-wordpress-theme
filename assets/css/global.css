@@ -4278,3 +4278,69 @@ footer.wp-block-template-part a:hover {
     gap: 40px;
   }
 }
+
+/* =========================================================
+   ABOUT — PHILOSOPHY
+   ========================================================= */
+
+.club100-about-philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+
+  max-width: 1000px;
+  margin: 44px auto 0;
+}
+
+.club100-about-philosophy-item {
+  display: grid;
+  grid-template-columns: 46px 1fr;
+  gap: 18px;
+
+  padding: 26px;
+
+  background: var(--club100-blue-pale);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-md);
+}
+
+.club100-about-philosophy-number {
+  width: 42px;
+  height: 42px;
+
+  display: grid;
+  place-items: center;
+
+  background: var(--club100-blue);
+  color: #fff;
+
+  border-radius: 50%;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.club100-about-philosophy-item h3 {
+  margin: 0 0 8px;
+
+  color: var(--club100-navy);
+
+  font-size: 20px;
+}
+
+.club100-about-philosophy-item p {
+  margin: 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 750px) {
+
+  .club100-about-philosophy-grid {
+    grid-template-columns: 1fr;
+  }
+}
