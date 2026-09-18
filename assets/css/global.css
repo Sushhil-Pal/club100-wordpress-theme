@@ -3614,3 +3614,67 @@ footer.wp-block-template-part a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   SOCIETIES — PROGRAM FORMATS
+   ========================================================= */
+
+.club100-societies-formats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+
+  max-width: 1000px;
+  margin: 44px auto 0;
+}
+
+.club100-societies-format-card {
+  padding: 30px;
+
+  background: var(--club100-white);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-md);
+}
+
+.club100-societies-format-label {
+  display: inline-block;
+
+  margin-bottom: 12px;
+
+  color: var(--club100-blue);
+
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .08em;
+
+  text-transform: uppercase;
+}
+
+.club100-societies-format-card h3 {
+  margin: 0 0 10px;
+
+  color: var(--club100-navy);
+
+  font-size: 22px;
+}
+
+.club100-societies-format-card p {
+  margin: 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+
+  .club100-societies-formats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .club100-societies-format-card {
+    padding: 24px;
+  }
+}
