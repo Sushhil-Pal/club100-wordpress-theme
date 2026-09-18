@@ -1086,8 +1086,11 @@ footer.wp-block-template-part a:hover {
 .club100-assessment-areas {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px 28px;
-  margin: 32px 0;
+
+  row-gap: 12px;
+  column-gap: 28px;
+
+  margin: 28px 0;
 }
 
 .club100-assessment-area h3 {
