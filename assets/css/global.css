@@ -4544,3 +4544,204 @@ footer.wp-block-template-part a:hover {
     text-align: center;
   }
 }
+
+/* =========================================================
+   CONTACT — HERO
+   ========================================================= */
+
+.club100-contact-hero {
+  padding-top: 88px;
+  padding-bottom: 72px;
+}
+
+.club100-contact-hero-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.club100-contact-hero-inner h1 {
+  margin: 0 auto 22px;
+
+  color: var(--club100-navy);
+
+  font-size: clamp(42px, 6vw, 58px);
+  line-height: 1.08;
+}
+
+.club100-contact-hero-intro {
+  max-width: 760px;
+  margin: 0 auto;
+
+  color: var(--club100-text-muted);
+
+  font-size: 19px;
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   CONTACT — ENQUIRY
+   ========================================================= */
+
+.club100-contact-grid {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.club100-contact-copy h2 {
+  margin: 0 0 18px;
+
+  color: var(--club100-navy);
+
+  font-size: clamp(32px, 4vw, 42px);
+}
+
+.club100-contact-intro {
+  max-width: 560px;
+
+  color: var(--club100-text-muted);
+
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.club100-contact-options {
+  display: grid;
+  gap: 18px;
+
+  margin-top: 30px;
+}
+
+.club100-contact-option {
+  padding: 20px 22px;
+
+  background: var(--club100-white);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-md);
+}
+
+.club100-contact-option h3 {
+  margin: 0 0 6px;
+
+  color: var(--club100-navy);
+
+  font-size: 18px;
+}
+
+.club100-contact-option p {
+  margin: 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.club100-contact-form-card {
+  padding: 34px;
+
+  background: var(--club100-white);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-lg);
+
+  box-shadow: var(--club100-shadow-sm);
+}
+
+.club100-contact-form-card h3 {
+  margin: 0 0 10px;
+
+  color: var(--club100-navy);
+
+  font-size: 28px;
+}
+
+.club100-contact-form-card > p:not(.club100-form-eyebrow) {
+  margin: 0 0 24px;
+
+  color: var(--club100-text-muted);
+
+  font-size: 15px;
+}
+
+.club100-contact-form .ff-el-group {
+  margin-bottom: 18px;
+}
+
+.club100-contact-form label {
+  color: var(--club100-text);
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.club100-contact-form input,
+.club100-contact-form select,
+.club100-contact-form textarea {
+  width: 100%;
+  min-height: 46px;
+
+  border: 1px solid var(--club100-border) !important;
+  border-radius: var(--club100-radius-sm) !important;
+
+  background: #fff;
+
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.club100-contact-form textarea {
+  min-height: 120px;
+}
+
+.club100-contact-form input:focus,
+.club100-contact-form select:focus,
+.club100-contact-form textarea:focus {
+  border-color: var(--club100-blue) !important;
+
+  box-shadow: 0 0 0 3px rgba(47,128,237,.10) !important;
+
+  outline: none;
+}
+
+.club100-contact-form .ff-btn-submit {
+  width: 100%;
+  min-height: 50px;
+
+  background: var(--club100-blue) !important;
+  color: #fff !important;
+
+  border: 0 !important;
+  border-radius: var(--club100-radius-sm) !important;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.club100-contact-form .ff-btn-submit:hover {
+  background: var(--club100-blue-dark) !important;
+}
+
+@media (max-width: 900px) {
+
+  .club100-contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .club100-contact-hero {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .club100-contact-form-card {
+    padding: 24px 20px;
+  }
+}
