@@ -4344,3 +4344,80 @@ footer.wp-block-template-part a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   ABOUT — TEAM
+   ========================================================= */
+
+.club100-about-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+
+  margin-top: 44px;
+}
+
+.club100-about-team-card {
+  overflow: hidden;
+
+  background: var(--club100-white);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-lg);
+
+  box-shadow: var(--club100-shadow-sm);
+}
+
+.club100-about-team-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+.club100-about-team-content {
+  padding: 24px;
+}
+
+.club100-about-team-content h3 {
+  margin: 0 0 6px;
+
+  color: var(--club100-navy);
+
+  font-size: 22px;
+}
+
+.club100-about-team-role {
+  margin: 0 0 14px;
+
+  color: var(--club100-blue);
+
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .04em;
+
+  text-transform: uppercase;
+}
+
+.club100-about-team-content > p:last-child {
+  margin: 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+
+  .club100-about-team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .club100-about-team-card {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+}
