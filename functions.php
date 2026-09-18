@@ -60,3 +60,17 @@ function club100_register_block_styles() {
 }
 
 add_action( 'init', 'club100_register_block_styles' );
+
+/**
+ * Club100 favicon.
+ */
+function club100_favicon() {
+	$icon = get_template_directory_uri()
+		. '/assets/images/club100-logo/club100-icon-mark.png';
+
+	echo '<link rel="icon" type="image/png" href="' . esc_url( $icon ) . '">';
+	echo '<link rel="apple-touch-icon" href="' . esc_url( $icon ) . '">';
+}
+
+add_action( 'wp_head', 'club100_favicon' );
+add_action( 'admin_head', 'club100_favicon' );
