@@ -4922,7 +4922,7 @@ footer.wp-block-template-part a:hover {
 
 /* Mobile-only Book Assessment item inside overlay */
 .club100-mobile-book {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 767px) {
@@ -5066,7 +5066,7 @@ footer.wp-block-template-part a:hover {
   .site-header
   .wp-block-navigation__responsive-container.is-menu-open
   .club100-mobile-book {
-    display: block;
+    display: block !important;
 
     margin-top: 28px;
 
@@ -5091,3 +5091,4 @@ footer.wp-block-template-part a:hover {
   }
 
 }
+
