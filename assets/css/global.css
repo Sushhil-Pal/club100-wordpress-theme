@@ -1093,6 +1093,11 @@ footer.wp-block-template-part a:hover {
   margin: 28px 0;
 }
 
+.club100-assessment-areas > * {
+  margin-block-start: 0 !important;
+  margin-top: 0 !important;
+}
+
 .club100-assessment-area h3 {
   margin: 0 0 6px;
   font-size: 18px;
