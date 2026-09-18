@@ -4493,3 +4493,54 @@ footer.wp-block-template-part a:hover {
     text-align: center;
   }
 }
+
+/* =========================================================
+   ABOUT — FINAL CTA
+   ========================================================= */
+
+.club100-about-final-cta {
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.club100-about-final-cta h2 {
+  margin: 0 0 18px;
+
+  color: #fff;
+
+  font-size: clamp(34px, 5vw, 48px);
+  line-height: 1.1;
+}
+
+.club100-about-final-cta > p:not(.club100-eyebrow) {
+  max-width: 680px;
+
+  margin: 0 auto;
+
+  color: #DCE8F2;
+
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.club100-about-final-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 14px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+
+  .club100-about-final-actions {
+    flex-direction: column;
+  }
+
+  .club100-about-final-actions .wp-element-button {
+    width: 100%;
+    text-align: center;
+  }
+}
