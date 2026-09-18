@@ -4827,3 +4827,62 @@ footer.wp-block-template-part a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   LEGAL PAGES
+   ========================================================= */
+
+.club100-legal-content {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.club100-legal-content h1 {
+  margin: 0 0 10px;
+
+  color: var(--club100-navy);
+
+  font-size: clamp(40px, 5vw, 54px);
+  line-height: 1.1;
+}
+
+.club100-legal-updated {
+  margin: 0 0 36px !important;
+
+  color: var(--club100-text-muted);
+
+  font-size: 14px !important;
+}
+
+.club100-legal-content h2 {
+  margin: 42px 0 14px;
+
+  color: var(--club100-navy);
+
+  font-size: 26px;
+}
+
+.club100-legal-content p,
+.club100-legal-content li {
+  color: var(--club100-text);
+
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.club100-legal-content p {
+  margin: 0 0 18px;
+}
+
+.club100-legal-content ul {
+  margin: 0 0 22px;
+  padding-left: 24px;
+}
+
+.club100-legal-content li {
+  margin-bottom: 8px;
+}
+
+.club100-legal-content a {
+  color: var(--club100-blue);
+}
