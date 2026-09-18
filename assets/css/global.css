@@ -3544,3 +3544,73 @@ footer.wp-block-template-part a:hover {
     padding: 24px 20px;
   }
 }
+
+/* =========================================================
+   SOCIETIES — PROGRAM INCLUDES
+   ========================================================= */
+
+.club100-societies-includes-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
+
+  margin-top: 44px;
+}
+
+.club100-societies-include-card {
+  padding: 26px 22px;
+
+  background: var(--club100-blue-pale);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-md);
+}
+
+.club100-societies-include-number {
+  width: 46px;
+  height: 46px;
+
+  display: grid;
+  place-items: center;
+
+  margin-bottom: 18px;
+
+  background: var(--club100-blue);
+  color: #fff;
+
+  border-radius: 50%;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.club100-societies-include-card h3 {
+  margin: 0 0 10px;
+
+  color: var(--club100-navy);
+
+  font-size: 19px;
+}
+
+.club100-societies-include-card p {
+  margin: 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+@media (max-width: 1023px) {
+
+  .club100-societies-includes-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+
+  .club100-societies-includes-grid {
+    grid-template-columns: 1fr;
+  }
+}
