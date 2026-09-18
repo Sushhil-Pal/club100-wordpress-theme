@@ -623,6 +623,15 @@ a {
   font-weight: 800;
 }
 
+.club100-checklist {
+  display: grid;
+  gap: 8px;
+}
+
+.club100-checklist > .club100-checklist-item {
+  margin: 0 !important;
+}
+
 
 /* =========================================================
    POWER / FLOW / PULSE / PLAY
