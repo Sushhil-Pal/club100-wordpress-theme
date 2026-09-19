@@ -124,7 +124,10 @@
 
 					<!-- wp:button -->
 					<div class="wp-block-button">
-						<a class="wp-block-button__link wp-element-button" href="/wp-content/uploads/2026/09/club100-sample-fitness-report.pdf">
+						<a class="wp-block-button__link wp-element-button" 
+						target="_blank"
+  						rel="noopener"
+						href="/wp-content/uploads/2026/09/club100-sample-fitness-report.pdf">
 							View Sample Fitness Report
 						</a>
 					</div>
