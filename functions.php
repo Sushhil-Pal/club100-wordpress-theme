@@ -190,3 +190,18 @@ function club100_social_meta() {
 }
 
 add_action( 'wp_head', 'club100_social_meta', 5 );
+
+/**
+ * Add canonical URL for homepage.
+ *
+ * WordPress outputs canonical tags for singular pages,
+ * but not necessarily for the static front page.
+ */
+function club100_home_canonical() {
+
+	if ( is_front_page() ) {
+		echo '<link rel="canonical" href="' . esc_url( home_url( '/' ) ) . '">' . "\n";
+	}
+}
+
+add_action( 'wp_head', 'club100_home_canonical', 4 );
