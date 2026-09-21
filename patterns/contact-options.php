@@ -41,11 +41,11 @@
 					Speak directly with the Club100 team.
 				</p>
 
-				<span>+91 XXXXX XXXXX</span>
+				<span>+91 9359234852</span>
 
 			</a>
 
-			<a href="https://wa.me/91XXXXXXXXXX"
+			<a href="https://wa.me/919359234852"
 			   target="_blank"
 			   rel="noopener"
 			   class="club100-contact-option-card">
@@ -62,7 +62,7 @@
 
 			</a>
 
-			<a href="mailto:hello@club100.in"
+			<a href="mailto:hello@club100.fit"
 			   class="club100-contact-option-card">
 
 				<div class="club100-contact-option-icon">03</div>
@@ -73,7 +73,7 @@
 					For general, corporate or society enquiries.
 				</p>
 
-				<span>hello@club100.in</span>
+				<span>hello@club100.fit</span>
 
 			</a>
 
