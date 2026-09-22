@@ -205,3 +205,27 @@ function club100_home_canonical() {
 }
 
 add_action( 'wp_head', 'club100_home_canonical', 4 );
+
+
+/**
+ * Club100 WebSite structured data.
+ */
+function club100_website_schema() {
+	if ( ! is_front_page() ) {
+		return;
+	}
+
+	$schema = [
+		'@context'      => 'https://schema.org',
+		'@type'         => 'WebSite',
+		'name'          => 'Club100',
+		'alternateName' => 'Club100 Fitness',
+		'url'           => home_url( '/' ),
+	];
+
+	echo '<script type="application/ld+json">'
+		. wp_json_encode( $schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE )
+		. '</script>' . "\n";
+}
+
+add_action( 'wp_head', 'club100_website_schema', 20 );
