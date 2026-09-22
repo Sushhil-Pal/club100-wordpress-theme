@@ -229,3 +229,28 @@ function club100_website_schema() {
 }
 
 add_action( 'wp_head', 'club100_website_schema', 20 );
+
+
+/**
+ * Club100 Organization structured data.
+ */
+function club100_organization_schema() {
+	if ( ! is_front_page() ) {
+		return;
+	}
+
+	$schema = [
+		'@context' => 'https://schema.org',
+		'@type'    => 'Organization',
+		'name'     => 'Club100',
+		'url'      => home_url( '/' ),
+		'logo'     => get_template_directory_uri()
+			. '/assets/images/club100-logo/club100-logo-horizontal.png',
+	];
+
+	echo '<script type="application/ld+json">'
+		. wp_json_encode( $schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE )
+		. '</script>' . "\n";
+}
+
+add_action( 'wp_head', 'club100_organization_schema', 21 );
