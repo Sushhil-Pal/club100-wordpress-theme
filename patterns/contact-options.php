@@ -30,7 +30,7 @@
 
 		<div class="club100-contact-options-grid">
 
-			<a href="tel:+91XXXXXXXXXX"
+			<a href="tel:+919359234852"
 			   class="club100-contact-option-card">
 
 				<div class="club100-contact-option-icon">01</div>

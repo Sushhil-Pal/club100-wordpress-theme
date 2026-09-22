@@ -77,7 +77,7 @@
 
 					<!-- wp:button {"className":"is-style-secondary"} -->
 					<div class="wp-block-button is-style-secondary">
-						<a class="wp-block-button__link wp-element-button" href="#">
+						<a class="wp-block-button__link wp-element-button" href="/wp-content/uploads/2026/09/club100-sample-fitness-report.pdf">
 							View Sample Fitness Report
 						</a>
 					</div>

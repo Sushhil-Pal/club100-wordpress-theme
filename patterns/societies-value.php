@@ -19,7 +19,7 @@
 			</p>
 
 			<h2 class="club100-section-title">
-				Fitness That Builds More Than Fitness
+				Fitness That Builds Health, Connection & Community
 			</h2>
 
 			<p class="club100-section-intro">

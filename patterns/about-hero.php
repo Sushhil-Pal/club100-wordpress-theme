@@ -19,7 +19,7 @@
 			</p>
 
 			<h1>
-				Fitness That Is Varied, Measurable and Built for Real Life
+				About Club100: Fitness That Is Varied, Measurable and Built for Real Life
 			</h1>
 
 			<p class="club100-about-hero-intro">

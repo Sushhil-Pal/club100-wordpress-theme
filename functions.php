@@ -254,3 +254,28 @@ function club100_organization_schema() {
 }
 
 add_action( 'wp_head', 'club100_organization_schema', 21 );
+
+
+/**
+ * Remove author/user URLs from WordPress sitemap.
+ */
+function club100_disable_users_sitemap( $provider, $name ) {
+	if ( 'users' === $name ) {
+		return false;
+	}
+
+	return $provider;
+}
+
+add_filter( 'wp_sitemaps_add_provider', 'club100_disable_users_sitemap', 10, 2 );
+
+/**
+ * Remove blog posts from WordPress sitemap while Club100 has no blog.
+ */
+function club100_disable_post_sitemap( $post_types ) {
+	unset( $post_types['post'] );
+
+	return $post_types;
+}
+
+add_filter( 'wp_sitemaps_post_types', 'club100_disable_post_sitemap' );

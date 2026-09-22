@@ -21,7 +21,7 @@
 				</p>
 
 				<h1>
-					Bring Fitness Into Your Community
+					Community Fitness Programs for Residential Societies
 				</h1>
 
 				<p class="club100-societies-hero-intro">
