@@ -89,12 +89,12 @@ function club100_get_page_meta() {
 	);
 
 	if ( is_front_page() ) {
-		return array(
-			'title'       => 'Club100 | Know Your Fitness. Improve It. Measure the Progress.',
-			'description' => 'Fitness assessment, structured training and reassessment designed to help you understand your fitness and measure real progress.',
-			'image'       => get_template_directory_uri() . '/assets/images/social/club100-home.jpg',
-		);
-	}
+        return [
+            'title'       => 'Club100 | Fitness Assessment, Training & Measurable Progress',
+            'description' => 'Understand your fitness, train with purpose and measure your progress with Club100 fitness assessments, structured training and reassessment.',
+            'image'       => get_template_directory_uri() . '/assets/images/social/club100-home.jpg',
+        ];
+    }
 
 	if ( is_page( 'fitness-assessment' ) ) {
 		return array(
