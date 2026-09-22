@@ -22,7 +22,7 @@
 
 			<!-- wp:heading {"level":2,"className":"club100-section-title"} -->
 			<h2 class="wp-block-heading club100-section-title">
-				One Program. Four Ways to Train.
+				One Fitness Program. Four Ways to Train.
 			</h2>
 			<!-- /wp:heading -->
 

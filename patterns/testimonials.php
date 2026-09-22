@@ -22,7 +22,7 @@
 
 			<!-- wp:heading {"level":2,"className":"club100-section-title"} -->
 			<h2 class="wp-block-heading club100-section-title">
-				Fitness That Happens in the Real World
+				Fitness Designed for Real Life
 			</h2>
 			<!-- /wp:heading -->
 

@@ -55,7 +55,7 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">ASSESS</h3>
+				<h3 class="wp-block-heading">ASSESS YOUR FITNESS</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
@@ -76,7 +76,7 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">TRAIN</h3>
+				<h3 class="wp-block-heading">TRAIN WITH PURPOSE</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
@@ -97,7 +97,7 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">TRACK</h3>
+				<h3 class="wp-block-heading">TRACK YOUR PROGRESS</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
@@ -118,7 +118,7 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">REASSESS</h3>
+				<h3 class="wp-block-heading">REASSESS & IMPROVE</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->

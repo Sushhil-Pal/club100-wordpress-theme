@@ -74,7 +74,7 @@
 				<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full">
 					<img
-						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/club100-hero-placeholder.jpg' ); ?>"
+						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/club100-community-fitness-session.jpg' ); ?>"
 						alt="Club100 members taking part in a guided fitness session"
 						width="1200"
 						height="960"
