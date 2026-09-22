@@ -279,3 +279,18 @@ function club100_disable_post_sitemap( $post_types ) {
 }
 
 add_filter( 'wp_sitemaps_post_types', 'club100_disable_post_sitemap' );
+
+/**
+ * Prevent low-value archive pages from being indexed.
+ */
+function club100_archive_robots( $robots ) {
+
+	if ( is_author() || is_category() ) {
+		$robots['noindex'] = true;
+		$robots['follow']  = true;
+	}
+
+	return $robots;
+}
+
+add_filter( 'wp_robots', 'club100_archive_robots' );
