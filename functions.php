@@ -66,16 +66,16 @@ add_action( 'init', 'club100_register_block_styles' );
  */
 function club100_favicon() {
 	$icon = get_template_directory_uri()
-		. '/assets/images/club100-logo/club100-icon-mark.png';
+		. '/assets/images/club100-logo/club100-favicon-512.png';
 
-	echo '<link rel="icon" type="image/png" href="' . esc_url( $icon ) . '">';
-	echo '<link rel="apple-touch-icon" href="' . esc_url( $icon ) . '">';
+	echo '<link rel="icon" type="image/png" sizes="512x512" href="' . esc_url( $icon ) . '">' . "\n";
+	echo '<link rel="apple-touch-icon" sizes="180x180" href="' . esc_url( $icon ) . '">' . "\n";
 }
 
 add_action( 'wp_head', 'club100_favicon' );
 add_action( 'admin_head', 'club100_favicon' );
-add_theme_support( 'title-tag' );
 
+add_theme_support( 'title-tag' );
 
 /**
  * Club100 SEO + Social Sharing Metadata
