@@ -17,12 +17,12 @@
 		<div class="wp-block-group club100-center">
 
 			<!-- wp:paragraph {"className":"club100-eyebrow"} -->
-			<p class="club100-eyebrow">OUR PROGRAMS</p>
+			<p class="club100-eyebrow">FOR COMMUNITIES & COMPANIES</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"level":2,"className":"club100-section-title"} -->
 			<h2 class="wp-block-heading club100-section-title">
-				Club100 for Communities and Companies
+				Bring Club100 to Your Community or Workplace
 			</h2>
 			<!-- /wp:heading -->
 

@@ -19,21 +19,24 @@
 			<!-- wp:group {"className":"club100-hero-copy","layout":{"type":"default"}} -->
 			<div class="wp-block-group club100-hero-copy">
 
-				<!-- wp:paragraph {"className":"club100-eyebrow"} -->
-				<p class="club100-eyebrow">
-					CLUB100 FITNESS &amp; WELL-BEING
-				</p>
-				<!-- /wp:paragraph -->
-
 				<!-- wp:heading {"level":1} -->
 				<h1 class="wp-block-heading">
-					Know Your Fitness. Improve It. Measure the Progress.
+					Why Choose Just One Way to Get Fit?
 				</h1>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"fontSize":"lg"} -->
-				<p class="has-lg-font-size">
-					Club100 combines fitness assessment, structured training and reassessment to help you build strength, mobility, cardiovascular fitness and overall well-being.
+				<!-- wp:paragraph {"fontSize":"lg","className":"club100-hero-intro"} -->
+				<p class="has-lg-font-size club100-hero-intro">
+					<span class="club100-hero-intro-desktop">
+						Strength Training. Yoga &amp; Mobility. Musical Cardio. Club100 brings
+						different workout formats together so you build strength, move better,
+						improve endurance and enjoy staying consistent.
+					</span>
+
+					<span class="club100-hero-intro-mobile">
+						<strong>Strength Training. Yoga &amp; Mobility. Musical Cardio.</strong>
+						Three workout styles working together for complete, enjoyable fitness.
+					</span>
 				</p>
 				<!-- /wp:paragraph -->
 
@@ -42,8 +45,8 @@
 
 					<!-- wp:button -->
 					<div class="wp-block-button">
-						<a class="wp-block-button__link wp-element-button" href="/fitness-assessment/">
-							Book a Fitness Assessment
+						<a class="wp-block-button__link wp-element-button" href="#club100-programs">
+							Find Your Program
 						</a>
 					</div>
 					<!-- /wp:button -->
@@ -61,27 +64,70 @@
 
 				<!-- wp:paragraph {"className":"club100-trust-line"} -->
 				<p class="club100-trust-line">
-					Assessment • Guided Training • Progress Tracking
+					Strength. Mobility. Endurance. One complete fitness experience.
 				</p>
 				<!-- /wp:paragraph -->
 
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"className":"club100-hero-image","layout":{"type":"default"}} -->
-			<div class="wp-block-group club100-hero-image">
 
-				<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full">
+			<!-- wp:group {"className":"club100-hero-formats","layout":{"type":"default"}} -->
+			<div class="wp-block-group club100-hero-formats">
+
+				<div class="club100-hero-format-card club100-hero-format-card-power">
+
 					<img
-						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/club100-community-fitness-session.jpg' ); ?>"
-						alt="Club100 members taking part in a guided fitness session"
-						width="1200"
-						height="960"
+						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/power.jpg' ); ?>"
+						alt="Strength training with Club100"
+						width="800"
+						height="1000"
 						fetchpriority="high"
 					/>
-				</figure>
-				<!-- /wp:image -->
+
+					<div class="club100-hero-format-overlay">
+						<span class="club100-hero-format-name">POWER</span>
+						<span class="club100-hero-format-type">Strength Training</span>
+						<span class="club100-hero-format-benefit">Build strength</span>
+					</div>
+
+				</div>
+
+
+				<div class="club100-hero-format-card club100-hero-format-card-flow">
+
+					<img
+						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/flow.jpg' ); ?>"
+						alt="Yoga and mobility training with Club100"
+						width="800"
+						height="1000"
+					/>
+
+					<div class="club100-hero-format-overlay">
+						<span class="club100-hero-format-name">FLOW</span>
+						<span class="club100-hero-format-type">Yoga &amp; Mobility</span>
+						<span class="club100-hero-format-benefit">Move better</span>
+					</div>
+
+				</div>
+
+
+				<div class="club100-hero-format-card club100-hero-format-card-pulse">
+
+					<img
+						src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/pulse.jpg' ); ?>"
+						alt="Musical cardio session with Club100"
+						width="800"
+						height="1000"
+					/>
+
+					<div class="club100-hero-format-overlay">
+						<span class="club100-hero-format-name">PULSE</span>
+						<span class="club100-hero-format-type">Musical Cardio</span>
+						<span class="club100-hero-format-benefit">Build endurance</span>
+					</div>
+
+				</div>
 
 			</div>
 			<!-- /wp:group -->

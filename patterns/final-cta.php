@@ -15,19 +15,19 @@
 
 		<!-- wp:paragraph {"className":"club100-eyebrow club100-eyebrow-light"} -->
 		<p class="club100-eyebrow club100-eyebrow-light">
-			START WITH YOUR FITNESS BASELINE
+			READY TO GET STARTED?
 		</p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:heading {"level":2,"className":"club100-final-cta-title"} -->
 		<h2 class="wp-block-heading club100-final-cta-title">
-			Ready to Know Where Your Fitness Stands?
+			Choose Your Program. Choose How You Want to Train.
 		</h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"className":"club100-final-cta-copy"} -->
 		<p class="club100-final-cta-copy">
-			Start with a Club100 Fitness Assessment and get a clearer picture of your current fitness, strengths and improvement priorities.
+			Start with the fitness goal that matters to you, then choose the training plan that fits the level of guidance and support you want.
 		</p>
 		<!-- /wp:paragraph -->
 
@@ -36,16 +36,8 @@
 
 			<!-- wp:button -->
 			<div class="wp-block-button">
-				<a class="wp-block-button__link wp-element-button" href="/fitness-assessment/">
-					Book a Fitness Assessment
-				</a>
-			</div>
-			<!-- /wp:button -->
-
-			<!-- wp:button {"className":"is-style-light"} -->
-			<div class="wp-block-button is-style-light">
-				<a class="wp-block-button__link wp-element-button" href="/contact/">
-					Talk to Club100
+				<a class="wp-block-button__link wp-element-button" href="/#club100-programs">
+					Choose Your Program
 				</a>
 			</div>
 			<!-- /wp:button -->

@@ -22,13 +22,13 @@
 
 			<!-- wp:heading {"level":2,"className":"club100-section-title"} -->
 			<h2 class="wp-block-heading club100-section-title">
-				One Fitness Program. Four Ways to Train.
+				Three Training Formats. One Complete Fitness Experience.
 			</h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"className":"club100-section-intro"} -->
 			<p class="club100-section-intro">
-				Fitness works better when it stays varied, balanced and enjoyable. Club100 combines four training formats to build strength, mobility, cardiovascular fitness and coordination without getting stuck in repetitive routines.
+				Club100 combines strength, mobility and cardio so your fitness stays balanced, varied and engaging — without getting stuck in the same repetitive routine.
 			</p>
 			<!-- /wp:paragraph -->
 
@@ -36,8 +36,8 @@
 		<!-- /wp:group -->
 
 
-		<!-- wp:group {"className":"club100-grid-4 club100-training-grid","layout":{"type":"default"}} -->
-		<div class="wp-block-group club100-grid-4 club100-training-grid">
+		<!-- wp:group {"className":"club100-grid-3 club100-training-grid","layout":{"type":"default"}} -->
+		<div class="wp-block-group club100-grid-3 club100-training-grid">
 
 			<!-- POWER -->
 			<!-- wp:group {"className":"club100-training-card club100-card-hover","layout":{"type":"default"}} -->
@@ -122,33 +122,6 @@
 			</div>
 			<!-- /wp:group -->
 
-
-			<!-- PLAY -->
-			<!-- wp:group {"className":"club100-training-card club100-card-hover","layout":{"type":"default"}} -->
-			<div class="wp-block-group club100-training-card club100-card-hover">
-
-				<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/play.jpg' ); ?>" alt="Club100 Play games and fitness challenges" loading="lazy"/>
-				</figure>
-				<!-- /wp:image -->
-
-				<!-- wp:group {"className":"club100-training-card-content","layout":{"type":"default"}} -->
-				<div class="wp-block-group club100-training-card-content">
-
-					<p class="club100-training-label">PLAY</p>
-
-					<h3>Make fitness fun and social.</h3>
-
-					<p>
-						Games, challenges and movement-based activities that improve agility, coordination and overall fitness.
-					</p>
-
-				</div>
-				<!-- /wp:group -->
-
-			</div>
-			<!-- /wp:group -->
 
 		</div>
 		<!-- /wp:group -->

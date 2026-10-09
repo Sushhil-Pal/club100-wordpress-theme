@@ -43,25 +43,25 @@
 
 			<div class="club100-benefit">
 				<div class="club100-benefit-icon">+</div>
-				<h3>Varied Training</h3>
+				<h3>Balanced Training</h3>
 				<p>
-					Strength, mobility, cardio and play keep fitness balanced and engaging.
+					Strength, mobility and cardio work together to build more complete fitness.
 				</p>
 			</div>
 
 			<div class="club100-benefit">
 				<div class="club100-benefit-icon">◎</div>
-				<h3>Inclusive Approach</h3>
+				<h3>Inclusive by Design</h3>
 				<p>
-					Designed for people across different age groups and fitness levels.
+					Programs and session variations support different fitness levels, goals and age groups.
 				</p>
 			</div>
 
 			<div class="club100-benefit">
 				<div class="club100-benefit-icon">♥</div>
-				<h3>Community &amp; Accountability</h3>
+				<h3>Consistency & Accountability</h3>
 				<p>
-					Training together helps people stay consistent and motivated.
+					Structure, tracking and trainer support help you stay consistent and keep progressing.
 				</p>
 			</div>
 

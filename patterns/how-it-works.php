@@ -24,19 +24,13 @@
 
 			<!-- wp:heading {"level":2,"className":"club100-section-title"} -->
 			<h2 class="wp-block-heading club100-section-title">
-				Fitness With a Measurable Starting Point
+				Start Where You Are. Train Your Way. Measure Your Progress.
 			</h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"className":"club100-section-intro"} -->
 			<p class="club100-section-intro">
-				Most fitness programs begin with exercise. Club100 begins by understanding where you stand.
-			</p>
-			<!-- /wp:paragraph -->
-
-			<!-- wp:paragraph {"className":"club100-section-intro"} -->
-			<p class="club100-section-intro">
-				We assess key areas of your fitness, identify where you are doing well and where you need to improve, and then build your training journey around measurable progress.
+				Club100 combines structured training with regular progress tracking, so you always know what to do next and how you are improving.
 			</p>
 			<!-- /wp:paragraph -->
 
@@ -55,12 +49,14 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">ASSESS YOUR FITNESS</h3>
+				<h3 class="wp-block-heading">
+					ASSESS
+				</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
 				<p>
-					Understand your current fitness across strength, mobility, cardiovascular health, body composition and well-being.
+					Start with a self-assessment or trainer-guided assessment and understand where you stand today.
 				</p>
 				<!-- /wp:paragraph -->
 
@@ -76,12 +72,14 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">TRAIN WITH PURPOSE</h3>
+				<h3 class="wp-block-heading">
+					TRAIN
+				</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
 				<p>
-					Build fitness through structured Power, Flow, Pulse and Play sessions.
+					Follow a structured mix of Strength Training, Yoga & Mobility, and Musical Cardio.
 				</p>
 				<!-- /wp:paragraph -->
 
@@ -97,12 +95,14 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">TRACK YOUR PROGRESS</h3>
+				<h3 class="wp-block-heading">
+					TRACK
+				</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
 				<p>
-					Stay consistent, work on your priority areas and monitor your progress.
+					Track your sessions, stay consistent and monitor your progress in the Club100 app.
 				</p>
 				<!-- /wp:paragraph -->
 
@@ -118,12 +118,14 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading">REASSESS & IMPROVE</h3>
+				<h3 class="wp-block-heading">
+					IMPROVE
+				</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
 				<p>
-					Repeat the assessment and see what has actually improved.
+					Reassess periodically, see what has improved and keep moving forward.
 				</p>
 				<!-- /wp:paragraph -->
 
@@ -136,7 +138,7 @@
 
 		<!-- wp:paragraph {"align":"center","className":"club100-process-closing"} -->
 		<p class="has-text-align-center club100-process-closing">
-			<strong>Because progress is easier to build when you can measure it.</strong>
+			<strong>Different plans. Same Club100 journey — assess, train, track and improve.</strong>
 		</p>
 		<!-- /wp:paragraph -->
 
