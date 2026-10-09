@@ -173,7 +173,7 @@
 					<span class="club100-plan-price-prefix">From</span>
 
 					<div class="club100-plan-price-main">
-						<strong>₹999</strong>
+						<strong>₹899</strong>
 						<span>/month</span>
 					</div>
 
@@ -243,7 +243,7 @@
 					<span class="club100-plan-price-prefix">From</span>
 
 					<div class="club100-plan-price-main">
-						<strong>₹1,499</strong>
+						<strong>₹1,199</strong>
 						<span>/month</span>
 					</div>
 

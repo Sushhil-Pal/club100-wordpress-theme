@@ -512,15 +512,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 	/*
-	 * Prototype pricing.
-	 *
-	 * These values are intentionally kept in one place so
-	 * they can be replaced easily when final pricing is set.
+	 * Final Club100 customer-facing pricing.
 	 *
 	 * IMPORTANT:
-	 * Once payment integration is added, the server/ERP
-	 * must calculate and validate the payable amount.
-	 * Browser-side pricing must not be trusted for payment.
+	 * ERP remains the authoritative source for the payable amount.
+	 * Browser-side pricing is display/review pricing only.
 	 */
 	const plans = {
 
@@ -537,9 +533,9 @@ document.addEventListener('DOMContentLoaded', function () {
 		'group': {
 			name: 'Group',
 			pricing: {
-				12: 999,
-				6: 1099,
-				3: 1199,
+				12: 899,
+				6: 999,
+				3: 1099,
 				1: 1299
 			}
 		},
@@ -547,9 +543,9 @@ document.addEventListener('DOMContentLoaded', function () {
 		'coach': {
 			name: 'Coach',
 			pricing: {
-				12: 1499,
-				6: 1599,
-				3: 1699,
+				12: 1199,
+				6: 1399,
+				3: 1599,
 				1: 1799
 			}
 		}
