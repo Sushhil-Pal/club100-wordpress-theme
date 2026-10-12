@@ -73,17 +73,17 @@
 			</p>
 
 			<h2 class="club100-section-title">
-				Three Simple Ways to Start
+				Choose How Much Coach Attention You Want
 			</h2>
 
 			<p class="club100-section-intro">
-				Choose based on how independently you like to train and how much trainer guidance you want.
+				Every live Club100 plan follows the same structured fitness approach. Choose based on the group size and level of coach attention you prefer.
 			</p>
 
 		</div>
 
 
-		<div class="club100-plan-grid">
+		<div class="club100-plan-grid club100-plan-grid-five">
 
 			<!-- SELF -->
 			<div class="club100-plan-card">
@@ -94,61 +94,34 @@
 
 				<h3>Self</h3>
 
+				<div class="club100-plan-capacity">
+					Pre-recorded
+				</div>
+
 				<div class="club100-plan-price">
-
 					<span class="club100-plan-price-prefix">From</span>
-
 					<div class="club100-plan-price-main">
 						<strong>₹499</strong>
 						<span>/month</span>
 					</div>
-
-					<small class="club100-plan-price-note">
-						with annual membership
-					</small>
-
+					<small class="club100-plan-price-note">with annual membership</small>
 				</div>
 
 				<p class="club100-plan-summary">
-					For people who want structure but prefer to train independently.
+					Train on your schedule with structured pre-recorded Club100 sessions.
 				</p>
 
 				<ul class="club100-plan-features">
-
-					<li>
-						Structured Club100 workout program
-					</li>
-
-					<li>
-						Prerecorded training sessions
-					</li>
-
-					<li>
-						POWER, FLOW &amp; PULSE workouts
-					</li>
-
-					<li>
-						Self-assessment
-					</li>
-
-					<li>
-						Workout and progress tracking
-					</li>
-
-					<li>
-						Club100 app access
-					</li>
-
-					<li>
-						Train at your own schedule
-					</li>
-
+					<li>Structured Club100 workout program</li>
+					<li>Pre-recorded training sessions</li>
+					<li>POWER, FLOW &amp; PULSE workouts</li>
+					<li>Self-assessment</li>
+					<li>Workout and progress tracking</li>
+					<li>Club100 app access</li>
+					<li>Train at your own schedule</li>
 				</ul>
 
-				<a
-					class="club100-plan-cta"
-					href="/#club100-programs"
-				>
+				<a class="club100-plan-cta" data-plan="self" href="/#club100-programs">
 					Choose Self
 				</a>
 
@@ -156,11 +129,7 @@
 
 
 			<!-- GROUP -->
-			<div class="club100-plan-card club100-plan-card-featured">
-
-				<p class="club100-plan-badge">
-					POPULAR
-				</p>
+			<div class="club100-plan-card">
 
 				<p class="club100-plan-label">
 					LIVE &amp; SOCIAL
@@ -168,62 +137,122 @@
 
 				<h3>Group</h3>
 
+				<div class="club100-plan-capacity">
+					Maximum 25 members
+				</div>
+
 				<div class="club100-plan-price">
-
 					<span class="club100-plan-price-prefix">From</span>
-
 					<div class="club100-plan-price-main">
 						<strong>₹899</strong>
 						<span>/month</span>
 					</div>
-
-					<small class="club100-plan-price-note">
-						with annual membership
-					</small>
-
+					<small class="club100-plan-price-note">with annual membership</small>
 				</div>
 
 				<p class="club100-plan-summary">
-					For people who enjoy live trainer guidance and the motivation of a group.
+					Live coaching with the motivation and energy of a larger Club100 group.
 				</p>
 
 				<ul class="club100-plan-features">
-
-					<li>
-						Everything needed for structured training
-					</li>
-
-					<li>
-						Live trainer-led sessions
-					</li>
-
-					<li>
-						Maximum 25 members per group
-					</li>
-
-					<li>
-						POWER, FLOW &amp; PULSE workouts
-					</li>
-
-					<li>
-						Group motivation and accountability
-					</li>
-
-					<li>
-						Progress tracking in the Club100 app
-					</li>
-
-					<li>
-						Regular fitness journey guidance
-					</li>
-
+					<li>Live trainer-led sessions</li>
+					<li>Maximum 25 members per session</li>
+					<li>POWER, FLOW &amp; PULSE workouts</li>
+					<li>Group motivation and accountability</li>
+					<li>Progress tracking in the Club100 app</li>
+					<li>Regular fitness journey guidance</li>
 				</ul>
 
-				<a
-					class="club100-plan-cta"
-					href="/#club100-programs"
-				>
+				<a class="club100-plan-cta" data-plan="group" href="/#club100-programs">
 					Choose Group
+				</a>
+
+			</div>
+
+
+			<!-- GROUP PLUS -->
+			<div class="club100-plan-card club100-plan-card-featured">
+
+				<p class="club100-plan-badge">
+					POPULAR
+				</p>
+
+				<p class="club100-plan-label">
+					MORE INTERACTION
+				</p>
+
+				<h3>Group Plus</h3>
+
+				<div class="club100-plan-capacity">
+					Maximum 15 members
+				</div>
+
+				<div class="club100-plan-price">
+					<span class="club100-plan-price-prefix">From</span>
+					<div class="club100-plan-price-main">
+						<strong>₹1,199</strong>
+						<span>/month</span>
+					</div>
+					<small class="club100-plan-price-note">with annual membership</small>
+				</div>
+
+				<p class="club100-plan-summary">
+					Smaller live sessions make it easier to interact, ask questions and get coach feedback.
+				</p>
+
+				<ul class="club100-plan-features">
+					<li>Live trainer-led sessions</li>
+					<li>Maximum 15 members per session</li>
+					<li>More coach interaction</li>
+					<li>Easier Q&amp;A during sessions</li>
+					<li>More form and technique feedback</li>
+					<li>Club100 app progress tracking</li>
+				</ul>
+
+				<a class="club100-plan-cta" data-plan="group-plus" href="/#club100-programs">
+					Choose Group Plus
+				</a>
+
+			</div>
+
+
+			<!-- FOCUS -->
+			<div class="club100-plan-card">
+
+				<p class="club100-plan-label">
+					HIGH ATTENTION
+				</p>
+
+				<h3>Focus</h3>
+
+				<div class="club100-plan-capacity">
+					Maximum 10 members
+				</div>
+
+				<div class="club100-plan-price">
+					<span class="club100-plan-price-prefix">From</span>
+					<div class="club100-plan-price-main">
+						<strong>₹1,899</strong>
+						<span>/month</span>
+					</div>
+					<small class="club100-plan-price-note">with annual membership</small>
+				</div>
+
+				<p class="club100-plan-summary">
+					A focused small-group experience with noticeably greater individual coaching and correction.
+				</p>
+
+				<ul class="club100-plan-features">
+					<li>Live trainer-led sessions</li>
+					<li>Maximum 10 members per session</li>
+					<li>Higher individual coach attention</li>
+					<li>Frequent form and technique correction</li>
+					<li>More personalized workout feedback</li>
+					<li>Club100 app progress tracking</li>
+				</ul>
+
+				<a class="club100-plan-cta" data-plan="focus" href="/#club100-programs">
+					Choose Focus
 				</a>
 
 			</div>
@@ -233,66 +262,38 @@
 			<div class="club100-plan-card">
 
 				<p class="club100-plan-label">
-					MORE SUPPORT
+					HIGHEST SUPPORT
 				</p>
 
 				<h3>Coach</h3>
 
+				<div class="club100-plan-capacity">
+					Maximum 5 members
+				</div>
+
 				<div class="club100-plan-price">
-
 					<span class="club100-plan-price-prefix">From</span>
-
 					<div class="club100-plan-price-main">
-						<strong>₹1,199</strong>
+						<strong>₹2,899</strong>
 						<span>/month</span>
 					</div>
-
-					<small class="club100-plan-price-note">
-						with annual membership
-					</small>
-
+					<small class="club100-plan-price-note">with annual membership</small>
 				</div>
 
 				<p class="club100-plan-summary">
-					For members who want a smaller group and more personal guidance.
+					Our highest-touch online plan with close supervision, frequent feedback and enhanced progress reviews.
 				</p>
 
 				<ul class="club100-plan-features">
-
-					<li>
-						Live trainer-led sessions
-					</li>
-
-					<li>
-						Maximum 15 members per group
-					</li>
-
-					<li>
-						More individual trainer attention
-					</li>
-
-					<li>
-						Technique and workout feedback
-					</li>
-
-					<li>
-						Progress guidance
-					</li>
-
-					<li>
-						Club100 app tracking
-					</li>
-
-					<li>
-						Greater coaching accountability
-					</li>
-
+					<li>Live trainer-led sessions</li>
+					<li>Maximum 5 members per session</li>
+					<li>Closest coach supervision</li>
+					<li>Frequent individual corrections and feedback</li>
+					<li>Enhanced progress reviews</li>
+					<li>Club100 app progress tracking</li>
 				</ul>
 
-				<a
-					class="club100-plan-cta"
-					href="/#club100-programs"
-				>
+				<a class="club100-plan-cta" data-plan="coach" href="/#club100-programs">
 					Choose Coach
 				</a>
 
@@ -300,12 +301,11 @@
 
 		</div>
 
-
 		<p class="club100-plan-note">
 			<strong>
-				Same Club100 programs. Choose the level of support that suits you.
+				Same Club100 program structure. Smaller groups mean more coach attention.
 			</strong>
-			Choose the format that best fits your lifestyle and training preference.
+			Choose the training format and support level that fits you best.
 		</p>
 
 	</div>
@@ -525,39 +525,13 @@ document.addEventListener('DOMContentLoaded', function () {
 		.querySelectorAll('.club100-plan-cta')
 		.forEach(function (link) {
 
-			const text =
-				link.textContent
-					.trim()
-					.toLowerCase();
-
-
-			let plan = '';
-
-
-			if (
-				text.includes('self')
-			) {
-
-				plan = 'self';
-
-			} else if (
-				text.includes('group')
-			) {
-
-				plan = 'group';
-
-			} else if (
-				text.includes('coach')
-			) {
-
-				plan = 'coach';
-
-			}
+			const plan =
+				link.dataset.plan || '';
 
 
 			/*
-			 * Ignore generic CTA such as
-			 * "Find My Best Option".
+			 * Only the five standard online-plan CTAs carry
+			 * data-plan. Generic/contact CTAs are ignored.
 			 */
 			if (!plan) {
 				return;

@@ -3412,7 +3412,6 @@ footer.wp-block-template-part a:hover {
 
 .club100-societies-hero-intro {
   max-width: 620px;
-
   margin: 0;
 
   color: var(--club100-text-muted);
@@ -3451,7 +3450,6 @@ footer.wp-block-template-part a:hover {
 }
 
 @media (max-width: 900px) {
-
   .club100-societies-hero-grid {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -3463,7 +3461,6 @@ footer.wp-block-template-part a:hover {
 }
 
 @media (max-width: 600px) {
-
   .club100-societies-hero {
     padding-top: 48px;
     padding-bottom: 56px;
@@ -3479,20 +3476,388 @@ footer.wp-block-template-part a:hover {
   }
 }
 
+
 /* =========================================================
-   SOCIETIES — PROBLEM
+   SOCIETIES — FOUR TRAINING FORMATS
    ========================================================= */
 
-.club100-societies-problem-grid {
+.club100-societies-formats-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
+
+  max-width: 1000px;
+  margin: 44px auto 0;
+}
+
+.club100-societies-formats-grid-four {
+  max-width: none;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.club100-societies-format-card {
+  padding: 30px;
+
+  background: var(--club100-white);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-md);
+
+  box-shadow: var(--club100-shadow-sm);
+}
+
+.club100-societies-format-label {
+  display: inline-block;
+
+  margin-bottom: 12px;
+
+  color: var(--club100-blue);
+
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .08em;
+
+  text-transform: uppercase;
+}
+
+.club100-societies-format-card h3 {
+  margin: 0 0 10px;
+
+  color: var(--club100-navy);
+
+  font-size: 22px;
+}
+
+.club100-societies-format-card p {
+  margin: 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 1023px) {
+  .club100-societies-formats-grid-four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .club100-societies-formats-grid,
+  .club100-societies-formats-grid-four {
+    grid-template-columns: 1fr;
+  }
+
+  .club100-societies-format-card {
+    padding: 24px;
+  }
+}
+
+
+/* =========================================================
+   SOCIETIES — PROGRAM INCLUDES
+   ========================================================= */
+
+.club100-societies-includes-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
 
   margin-top: 44px;
 }
 
-.club100-societies-problem-card {
-  padding: 28px 24px;
+.club100-societies-include-card {
+  padding: 26px 22px;
+
+  background: var(--club100-blue-pale);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-md);
+}
+
+.club100-societies-include-number {
+  width: 46px;
+  height: 46px;
+
+  display: grid;
+  place-items: center;
+
+  margin-bottom: 18px;
+
+  background: var(--club100-blue);
+  color: #fff;
+
+  border-radius: 50%;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.club100-societies-include-card h3 {
+  margin: 0 0 10px;
+
+  color: var(--club100-navy);
+
+  font-size: 19px;
+}
+
+.club100-societies-include-card p {
+  margin: 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+@media (max-width: 1023px) {
+  .club100-societies-includes-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .club100-societies-includes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* =========================================================
+   SOCIETIES — ASSESSMENT
+   ========================================================= */
+
+.club100-societies-assessment-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, .9fr);
+  gap: 64px;
+  align-items: center;
+}
+
+.club100-societies-assessment-copy h2 {
+  margin: 0 0 18px;
+
+  color: var(--club100-navy);
+
+  font-size: clamp(32px, 4vw, 42px);
+  line-height: 1.15;
+}
+
+.club100-societies-assessment-intro {
+  max-width: 650px;
+  margin: 0 0 18px;
+
+  color: var(--club100-text-muted);
+
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.club100-societies-assessment-score {
+  max-width: 650px;
+  margin: 0 0 18px;
+
+  color: var(--club100-text);
+
+  font-size: 16px;
+}
+
+.club100-societies-assessment-areas {
+  display: grid;
+  gap: 12px;
+}
+
+.club100-societies-assessment-areas > div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 16px 18px;
+
+  background: var(--club100-white);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-sm);
+}
+
+.club100-societies-assessment-areas span {
+  width: 34px;
+  height: 34px;
+
+  display: grid;
+  place-items: center;
+
+  flex: 0 0 34px;
+
+  background: var(--club100-blue);
+  color: #fff;
+
+  border-radius: 50%;
+
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.club100-societies-assessment-areas strong {
+  color: var(--club100-navy);
+
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  .club100-societies-assessment-grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .club100-societies-assessment-areas {
+    max-width: 700px;
+  }
+}
+
+
+/* =========================================================
+   SOCIETIES — PRICING
+   ========================================================= */
+
+.club100-societies-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+
+  margin-top: 44px;
+}
+
+.club100-societies-price-card {
+  position: relative;
+
+  padding: 30px 24px;
+
+  background: var(--club100-white);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-lg);
+
+  text-align: center;
+}
+
+.club100-societies-price-card-featured {
+  border: 2px solid var(--club100-blue);
+
+  box-shadow: var(--club100-shadow-md);
+}
+
+.club100-societies-price-badge {
+  position: absolute;
+
+  top: -13px;
+  right: 18px;
+
+  margin: 0;
+  padding: 5px 11px;
+
+  background: var(--club100-blue);
+  color: #fff;
+
+  border-radius: 999px;
+
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .06em;
+}
+
+.club100-societies-price-members {
+  margin: 0 0 18px;
+
+  color: var(--club100-blue);
+
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .04em;
+
+  text-transform: uppercase;
+}
+
+.club100-societies-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 4px;
+}
+
+.club100-societies-price strong {
+  color: var(--club100-navy);
+
+  font-size: 34px;
+  line-height: 1.1;
+}
+
+.club100-societies-price span {
+  color: var(--club100-text-muted);
+
+  font-size: 14px;
+}
+
+.club100-societies-price-card > p:last-child {
+  margin: 8px 0 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 13px;
+}
+
+.club100-societies-pricing-note {
+  max-width: 840px;
+
+  margin: 30px auto 0;
+  padding: 20px 24px;
+
+  background: var(--club100-blue-pale);
+
+  color: var(--club100-text);
+
+  text-align: center;
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-md);
+}
+
+.club100-societies-pricing-note p {
+  margin: 5px 0 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 14px;
+}
+
+@media (max-width: 1023px) {
+  .club100-societies-pricing-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .club100-societies-pricing-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* =========================================================
+   SOCIETIES — HOW IT WORKS
+   ========================================================= */
+
+.club100-societies-journey {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+
+  margin-top: 44px;
+}
+
+.club100-societies-journey-step {
+  padding: 26px 22px;
 
   background: var(--club100-white);
 
@@ -3500,17 +3865,35 @@ footer.wp-block-template-part a:hover {
   border-radius: var(--club100-radius-md);
 }
 
-.club100-societies-problem-number {
-  margin-bottom: 18px;
+.club100-societies-journey-time {
+  margin: 0 0 14px;
 
   color: var(--club100-blue);
 
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 800;
-  letter-spacing: .06em;
+  letter-spacing: .08em;
 }
 
-.club100-societies-problem-card h3 {
+.club100-societies-journey-number {
+  width: 44px;
+  height: 44px;
+
+  display: grid;
+  place-items: center;
+
+  margin-bottom: 18px;
+
+  background: var(--club100-blue);
+  color: #fff;
+
+  border-radius: 50%;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.club100-societies-journey-step h3 {
   margin: 0 0 10px;
 
   color: var(--club100-navy);
@@ -3518,7 +3901,7 @@ footer.wp-block-template-part a:hover {
   font-size: 20px;
 }
 
-.club100-societies-problem-card p {
+.club100-societies-journey-step > p:last-child {
   margin: 0;
 
   color: var(--club100-text-muted);
@@ -3528,96 +3911,23 @@ footer.wp-block-template-part a:hover {
 }
 
 @media (max-width: 900px) {
-
-  .club100-societies-problem-grid {
+  .club100-societies-journey {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 600px) {
-
-  .club100-societies-problem-grid {
+  .club100-societies-journey {
     grid-template-columns: 1fr;
   }
 }
 
-/* =========================================================
-   SOCIETIES — APPROACH
-   ========================================================= */
-
-.club100-societies-approach-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 20px;
-
-  margin-top: 44px;
-}
-
-.club100-societies-approach-card {
-  padding: 26px 22px;
-
-  background: var(--club100-blue-pale);
-
-  border: 1px solid var(--club100-border);
-  border-radius: var(--club100-radius-md);
-}
-
-.club100-societies-approach-number {
-  margin-bottom: 18px;
-
-  color: var(--club100-blue);
-
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: .06em;
-}
-
-.club100-societies-approach-card h3 {
-  margin: 0 0 10px;
-
-  color: var(--club100-navy);
-
-  font-size: 20px;
-}
-
-.club100-societies-approach-card p {
-  margin: 0;
-
-  color: var(--club100-text-muted);
-
-  font-size: 15px;
-  line-height: 1.55;
-}
-
-.club100-societies-approach-closing {
-  margin: 30px 0 0;
-
-  color: var(--club100-navy);
-
-  text-align: center;
-
-  font-size: 17px;
-  font-weight: 700;
-}
-
-@media (max-width: 1023px) {
-
-  .club100-societies-approach-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 600px) {
-
-  .club100-societies-approach-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 /* =========================================================
-   SOCIETIES — ENQUIRY
+   SOCIETIES — RESIDENT REGISTRATION
    ========================================================= */
 
+.club100-societies-register-grid,
 .club100-societies-enquiry-grid {
   display: grid;
   grid-template-columns: .9fr 1.1fr;
@@ -3625,6 +3935,7 @@ footer.wp-block-template-part a:hover {
   align-items: start;
 }
 
+.club100-societies-register-copy h2,
 .club100-societies-enquiry-copy h2 {
   margin: 0 0 18px;
 
@@ -3633,6 +3944,7 @@ footer.wp-block-template-part a:hover {
   font-size: clamp(32px, 4vw, 42px);
 }
 
+.club100-societies-register-intro,
 .club100-societies-enquiry-intro {
   max-width: 560px;
 
@@ -3640,6 +3952,48 @@ footer.wp-block-template-part a:hover {
 
   font-size: 18px;
   line-height: 1.6;
+}
+
+.club100-societies-register-price-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+
+  max-width: 520px;
+  margin-top: 26px;
+}
+
+.club100-societies-register-price-summary > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+
+  padding: 12px 14px;
+
+  background: var(--club100-blue-pale);
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-sm);
+}
+
+.club100-societies-register-price-summary strong {
+  color: var(--club100-navy);
+}
+
+.club100-societies-register-price-summary span {
+  color: var(--club100-blue);
+
+  font-weight: 700;
+}
+
+.club100-societies-register-note {
+  max-width: 550px;
+  margin-top: 20px;
+
+  color: var(--club100-text-muted);
+
+  font-size: 14px;
+  line-height: 1.55;
 }
 
 .club100-societies-enquiry-list {
@@ -3766,8 +4120,25 @@ footer.wp-block-template-part a:hover {
   background: var(--club100-blue-dark) !important;
 }
 
-@media (max-width: 900px) {
+.club100-societies-form-placeholder {
+  padding: 20px;
 
+  background: var(--club100-blue-pale);
+
+  border: 1px dashed var(--club100-blue);
+  border-radius: var(--club100-radius-sm);
+}
+
+.club100-societies-form-placeholder p {
+  margin-bottom: 0;
+
+  color: var(--club100-text-muted);
+
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .club100-societies-register-grid,
   .club100-societies-enquiry-grid {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -3779,341 +4150,234 @@ footer.wp-block-template-part a:hover {
 }
 
 @media (max-width: 600px) {
-
   .club100-societies-form-card {
     padding: 24px 20px;
   }
-}
 
-/* =========================================================
-   SOCIETIES — PROGRAM INCLUDES
-   ========================================================= */
-
-.club100-societies-includes-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 20px;
-
-  margin-top: 44px;
-}
-
-.club100-societies-include-card {
-  padding: 26px 22px;
-
-  background: var(--club100-blue-pale);
-
-  border: 1px solid var(--club100-border);
-  border-radius: var(--club100-radius-md);
-}
-
-.club100-societies-include-number {
-  width: 46px;
-  height: 46px;
-
-  display: grid;
-  place-items: center;
-
-  margin-bottom: 18px;
-
-  background: var(--club100-blue);
-  color: #fff;
-
-  border-radius: 50%;
-
-  font-size: 13px;
-  font-weight: 800;
-}
-
-.club100-societies-include-card h3 {
-  margin: 0 0 10px;
-
-  color: var(--club100-navy);
-
-  font-size: 19px;
-}
-
-.club100-societies-include-card p {
-  margin: 0;
-
-  color: var(--club100-text-muted);
-
-  font-size: 15px;
-  line-height: 1.55;
-}
-
-@media (max-width: 1023px) {
-
-  .club100-societies-includes-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 600px) {
-
-  .club100-societies-includes-grid {
+  .club100-societies-register-price-summary {
     grid-template-columns: 1fr;
   }
 }
 
+
+
 /* =========================================================
-   SOCIETIES — PROGRAM FORMATS
+   SOCIETIES — ERP RESIDENT INTEREST FORM
    ========================================================= */
 
-.club100-societies-formats-grid {
+.club100-society-interest-form {
+  display: grid;
+  gap: 18px;
+}
+
+.club100-society-interest-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
-
-  max-width: 1000px;
-  margin: 44px auto 0;
+  gap: 16px;
 }
 
-.club100-societies-format-card {
-  padding: 30px;
+.club100-society-interest-field {
+  display: grid;
+  gap: 7px;
+}
 
-  background: var(--club100-white);
+.club100-society-interest-field label,
+.club100-society-interest-consent label {
+  color: var(--club100-text);
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.club100-society-interest-field label span {
+  color: var(--club100-blue);
+}
+
+.club100-society-interest-field input,
+.club100-society-interest-field select {
+  width: 100%;
+  min-height: 46px;
+
+  padding: 10px 12px;
+
+  background: #fff;
+  color: var(--club100-text);
 
   border: 1px solid var(--club100-border);
-  border-radius: var(--club100-radius-md);
-}
+  border-radius: var(--club100-radius-sm);
 
-.club100-societies-format-label {
-  display: inline-block;
-
-  margin-bottom: 12px;
-
-  color: var(--club100-blue);
-
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: .08em;
-
-  text-transform: uppercase;
-}
-
-.club100-societies-format-card h3 {
-  margin: 0 0 10px;
-
-  color: var(--club100-navy);
-
-  font-size: 22px;
-}
-
-.club100-societies-format-card p {
-  margin: 0;
-
-  color: var(--club100-text-muted);
-
+  font: inherit;
   font-size: 15px;
-  line-height: 1.6;
 }
 
-@media (max-width: 700px) {
+.club100-society-interest-field input:focus,
+.club100-society-interest-field select:focus {
+  border-color: var(--club100-blue);
 
-  .club100-societies-formats-grid {
-    grid-template-columns: 1fr;
-  }
+  box-shadow: 0 0 0 3px rgba(47, 128, 237, .10);
 
-  .club100-societies-format-card {
-    padding: 24px;
-  }
+  outline: none;
 }
 
-/* =========================================================
-   SOCIETIES — SAMPLE JOURNEY
-   ========================================================= */
-
-.club100-societies-journey {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 20px;
-
-  margin-top: 44px;
+.club100-society-interest-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
 }
 
-.club100-societies-journey-step {
-  padding: 26px 22px;
+.club100-society-interest-consent input {
+  width: 18px;
+  height: 18px;
 
-  background: var(--club100-blue-pale);
+  flex: 0 0 18px;
 
-  border: 1px solid var(--club100-border);
-  border-radius: var(--club100-radius-md);
+  margin-top: 3px;
+
+  accent-color: var(--club100-blue);
 }
 
-.club100-societies-journey-time {
-  margin: 0 0 14px;
+.club100-society-interest-submit {
+  width: 100%;
+  min-height: 50px;
 
-  color: var(--club100-blue);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: .08em;
-}
-
-.club100-societies-journey-number {
-  width: 44px;
-  height: 44px;
-
-  display: grid;
-  place-items: center;
-
-  margin-bottom: 18px;
+  padding: 11px 20px;
 
   background: var(--club100-blue);
   color: #fff;
 
-  border-radius: 50%;
+  border: 0;
+  border-radius: var(--club100-radius-sm);
 
-  font-size: 13px;
-  font-weight: 800;
+  cursor: pointer;
+
+  font: inherit;
+  font-size: 16px;
+  font-weight: 700;
+
+  transition:
+    background-color .18s ease,
+    opacity .18s ease;
 }
 
-.club100-societies-journey-step h3 {
-  margin: 0 0 10px;
-
-  color: var(--club100-navy);
-
-  font-size: 20px;
+.club100-society-interest-submit:hover {
+  background: var(--club100-blue-dark);
 }
 
-.club100-societies-journey-step > p:last-child {
-  margin: 0;
+.club100-society-interest-submit:disabled {
+  cursor: wait;
+  opacity: .68;
+}
+
+.club100-society-interest-status {
+  display: none;
+
+  padding: 13px 15px;
+
+  border-radius: var(--club100-radius-sm);
+
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.club100-society-interest-status:not(:empty) {
+  display: block;
+}
+
+.club100-society-interest-status-success {
+  background: #EDF9F1;
+  color: #176B3A;
+
+  border: 1px solid #BFE7CC;
+}
+
+.club100-society-interest-status-error {
+  background: #FFF1F0;
+  color: #A32822;
+
+  border: 1px solid #F0C5C2;
+}
+
+.club100-society-interest-privacy {
+  margin: -4px 0 0;
 
   color: var(--club100-text-muted);
-
-  font-size: 15px;
-  line-height: 1.55;
-}
-
-.club100-societies-journey-result {
-  max-width: 760px;
-
-  margin: 32px auto 0;
-  padding: 26px 30px;
-
-  background: var(--club100-navy);
-  color: #fff;
-
-  text-align: center;
-
-  border-radius: var(--club100-radius-md);
-}
-
-.club100-societies-journey-result-label {
-  margin: 0 0 8px;
-
-  color: #BFD7EC;
 
   font-size: 12px;
-  font-weight: 800;
-  letter-spacing: .08em;
+  line-height: 1.5;
 }
 
-.club100-societies-journey-result h3 {
-  margin: 0 0 8px;
+.club100-society-interest-hp {
+  position: absolute !important;
+  left: -9999px !important;
 
-  color: #fff;
+  width: 1px !important;
+  height: 1px !important;
 
-  font-size: 23px;
-}
-
-.club100-societies-journey-result > p:last-child {
-  max-width: 620px;
-
-  margin: 0 auto;
-
-  color: #DCE8F2;
-
-  font-size: 15px;
-}
-
-@media (max-width: 900px) {
-
-  .club100-societies-journey {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+  overflow: hidden !important;
 }
 
 @media (max-width: 600px) {
-
-  .club100-societies-journey {
+  .club100-society-interest-row {
     grid-template-columns: 1fr;
   }
-
-  .club100-societies-journey-result {
-    padding: 24px 20px;
-  }
 }
+
 
 /* =========================================================
-   SOCIETIES — VALUE FOR COMMUNITY
+   SOCIETIES — ONLINE OPTION
    ========================================================= */
 
-.club100-societies-value-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
+.club100-societies-online {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
 
-  margin-top: 44px;
-}
+  padding: 34px 38px;
 
-.club100-societies-value-card {
-  padding: 28px 24px;
-
-  background: var(--club100-white);
+  background: var(--club100-blue-pale);
 
   border: 1px solid var(--club100-border);
-  border-radius: var(--club100-radius-md);
+  border-radius: var(--club100-radius-lg);
 }
 
-.club100-societies-value-icon {
-  width: 46px;
-  height: 46px;
-
-  display: grid;
-  place-items: center;
-
-  margin-bottom: 18px;
-
-  background: var(--club100-blue-light);
-  color: var(--club100-blue);
-
-  border-radius: 50%;
-
-  font-size: 13px;
-  font-weight: 800;
-}
-
-.club100-societies-value-card h3 {
-  margin: 0 0 10px;
+.club100-societies-online h2 {
+  margin: 0 0 8px;
 
   color: var(--club100-navy);
 
-  font-size: 20px;
+  font-size: 27px;
 }
 
-.club100-societies-value-card p {
+.club100-societies-online p:not(.club100-eyebrow) {
+  max-width: 700px;
   margin: 0;
 
   color: var(--club100-text-muted);
-
-  font-size: 15px;
-  line-height: 1.55;
 }
 
-@media (max-width: 900px) {
+.club100-societies-online .wp-element-button {
+  flex: 0 0 auto;
+}
 
-  .club100-societies-value-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+@media (max-width: 767px) {
+  .club100-societies-online {
+    align-items: stretch;
+    flex-direction: column;
+
+    padding: 28px 22px;
+  }
+
+  .club100-societies-online .wp-element-button {
+    width: 100%;
+    text-align: center;
   }
 }
 
-@media (max-width: 600px) {
-
-  .club100-societies-value-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 /* =========================================================
    SOCIETIES — FINAL CTA
@@ -4157,7 +4421,6 @@ footer.wp-block-template-part a:hover {
 }
 
 @media (max-width: 600px) {
-
   .club100-societies-final-actions {
     flex-direction: column;
   }
@@ -4167,6 +4430,7 @@ footer.wp-block-template-part a:hover {
     text-align: center;
   }
 }
+
 
 /* =========================================================
    ABOUT — HERO
@@ -5934,9 +6198,36 @@ footer.wp-block-template-part a:hover {
   margin-top: 48px;
 }
 
+
 .club100-plan-grid > * {
   margin-block-start: 0 !important;
   margin-top: 0 !important;
+}
+
+
+/* Five-plan layout
+   Desktop only: 3 cards on the first row, 2 centered below.
+   Tablet/mobile continue to use the existing single-column layout. */
+
+@media (min-width: 1024px) {
+
+  .club100-plan-grid-five {
+    grid-template-columns:
+      repeat(6, minmax(0, 1fr));
+  }
+
+  .club100-plan-grid-five > .club100-plan-card {
+    grid-column: span 2;
+  }
+
+  .club100-plan-grid-five > .club100-plan-card:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .club100-plan-grid-five > .club100-plan-card:nth-child(5) {
+    grid-column: 4 / span 2;
+  }
+
 }
 
 .club100-plan-card {
@@ -5991,6 +6282,27 @@ footer.wp-block-template-part a:hover {
   letter-spacing: 0.08em;
 
   text-transform: uppercase;
+}
+
+
+.club100-plan-capacity {
+  display: inline-flex;
+  align-items: center;
+
+  width: fit-content;
+
+  margin: 0 0 2px;
+  padding: 6px 10px;
+
+  background: var(--club100-blue-pale);
+  color: var(--club100-navy);
+
+  border: 1px solid var(--club100-border);
+  border-radius: 999px;
+
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: 800;
 }
 
 .club100-plan-card h3 {
@@ -7699,6 +8011,100 @@ footer.wp-block-template-part a:hover {
 
   .club100-join-review-actions button {
     width: 100%;
+  }
+
+}
+/* =========================================================
+   SOCIETY JOIN / ENROLLMENT
+   ========================================================= */
+
+.club100-society-join-state {
+  max-width: 760px;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.club100-society-join-state h1 {
+  margin: 0 0 18px;
+
+  color: var(--club100-navy);
+
+  font-size: clamp(34px, 5vw, 48px);
+  line-height: 1.1;
+}
+
+.club100-society-join-state .club100-payment-status {
+  margin-top: 22px;
+}
+
+.club100-society-join-state-note {
+  margin: 20px auto 24px;
+
+  max-width: 620px;
+
+  color: var(--club100-text-muted);
+
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.club100-society-join-page .club100-join-field select {
+  width: 100%;
+
+  min-height: 50px;
+
+  padding: 11px 40px 11px 14px;
+
+  background: #fff;
+
+  border: 1px solid var(--club100-border);
+  border-radius: var(--club100-radius-sm);
+
+  color: var(--club100-text);
+
+  font: inherit;
+
+  cursor: pointer;
+}
+
+.club100-society-join-page .club100-join-field select:focus {
+  border-color: var(--club100-blue);
+
+  outline: none;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(47, 128, 237, 0.10);
+}
+
+.club100-society-join-page .club100-join-field input[readonly] {
+  background: var(--club100-surface);
+  color: var(--club100-text);
+
+  cursor: default;
+}
+
+.club100-society-personal-heading {
+  margin-top: 8px;
+  padding-top: 24px;
+
+  border-top: 1px solid var(--club100-border);
+}
+
+.club100-society-join-page .club100-join-summary-row strong {
+  max-width: 58%;
+}
+
+@media (max-width: 600px) {
+
+  .club100-society-join-page .club100-join-summary-row {
+    align-items: flex-start;
+  }
+
+  .club100-society-join-page .club100-join-summary-row strong {
+    max-width: 60%;
   }
 
 }

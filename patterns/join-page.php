@@ -540,13 +540,33 @@ document.addEventListener('DOMContentLoaded', function () {
 			}
 		},
 
-		'coach': {
-			name: 'Coach',
+		'group-plus': {
+			name: 'Group Plus',
 			pricing: {
 				12: 1199,
 				6: 1399,
 				3: 1599,
 				1: 1799
+			}
+		},
+
+		'focus': {
+			name: 'Focus',
+			pricing: {
+				12: 1899,
+				6: 2099,
+				3: 2299,
+				1: 2499
+			}
+		},
+
+		'coach': {
+			name: 'Coach',
+			pricing: {
+				12: 2899,
+				6: 3099,
+				3: 3299,
+				1: 3499
 			}
 		}
 
@@ -1419,6 +1439,23 @@ document.addEventListener('DOMContentLoaded', function () {
 							if (postPaymentActions) {
 								postPaymentActions.hidden =
 									false;
+							}
+
+
+							if (
+								createAccountLink &&
+								verified.next_action ===
+									'create_account' &&
+								verified.registration_token
+							) {
+
+								createAccountLink.href =
+									appRegisterUrl +
+									'?token=' +
+									encodeURIComponent(
+										verified.registration_token
+									);
+
 							}
 
 

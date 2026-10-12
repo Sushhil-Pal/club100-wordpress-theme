@@ -1,30 +1,30 @@
 <?php
 /**
- * Title: Societies Program Journey
+ * Title: Societies How It Works
  * Slug: club100/societies-journey
  * Categories: featured
  * Inserter: yes
  */
 ?>
 
-<!-- wp:group {"align":"full","className":"club100-section club100-bg-white","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull club100-section club100-bg-white">
+<!-- wp:group {"align":"full","className":"club100-section club100-bg-blue-light","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull club100-section club100-bg-blue-light">
 
 	<div class="club100-container">
 
 		<div class="club100-center">
 
 			<p class="club100-eyebrow">
-				SAMPLE SOCIETY JOURNEY
+				HOW IT WORKS
 			</p>
 
 			<h2 class="club100-section-title">
-				From Starting Point to Visible Progress
+				From Resident Interest to Onsite Sessions
 			</h2>
 
 			<p class="club100-section-intro">
-				A Club100 society program can combine assessment, regular training,
-				community participation and reassessment in a simple structured journey.
+				Residents can register directly — your society does not need to commit
+				or pay on behalf of everyone.
 			</p>
 
 		</div>
@@ -32,57 +32,40 @@
 		<div class="club100-societies-journey">
 
 			<div class="club100-societies-journey-step">
-				<p class="club100-societies-journey-time">WEEK 0</p>
+				<p class="club100-societies-journey-time">STEP 1</p>
 				<div class="club100-societies-journey-number">01</div>
-				<h3>Fitness Assessment</h3>
+				<h3>Residents Register Interest</h3>
 				<p>
-					Members understand their current fitness baseline across key areas.
+					Residents tell us they want Club100 in their society and share their preferred timing.
 				</p>
 			</div>
 
 			<div class="club100-societies-journey-step">
-				<p class="club100-societies-journey-time">WEEKS 1–8</p>
+				<p class="club100-societies-journey-time">STEP 2</p>
 				<div class="club100-societies-journey-number">02</div>
-				<h3>Regular Fitness Sessions</h3>
+				<h3>Batches &amp; Timings Are Proposed</h3>
 				<p>
-					Power, Flow, Pulse and Play create a varied weekly fitness routine.
+					We group interested residents into practical onsite batches based on timing and participation.
 				</p>
 			</div>
 
 			<div class="club100-societies-journey-step">
-				<p class="club100-societies-journey-time">DURING PROGRAM</p>
+				<p class="club100-societies-journey-time">STEP 3</p>
 				<div class="club100-societies-journey-number">03</div>
-				<h3>Community Participation</h3>
+				<h3>Batch Pricing Is Confirmed</h3>
 				<p>
-					Group activities and challenges help keep the experience social and engaging.
+					The number of members training in each batch determines that batch's monthly price per resident.
 				</p>
 			</div>
 
 			<div class="club100-societies-journey-step">
-				<p class="club100-societies-journey-time">WEEK 8</p>
+				<p class="club100-societies-journey-time">STEP 4</p>
 				<div class="club100-societies-journey-number">04</div>
-				<h3>Reassessment</h3>
+				<h3>Residents Enroll Individually</h3>
 				<p>
-					Repeat key measures and compare progress with the original baseline.
+					Each resident completes their own enrollment and payment before onsite sessions begin.
 				</p>
 			</div>
-
-		</div>
-
-		<div class="club100-societies-journey-result">
-
-			<p class="club100-societies-journey-result-label">
-				MEMBER OUTCOME
-			</p>
-
-			<h3>
-				A Clearer View of Fitness Progress
-			</h3>
-
-			<p>
-				Members can see where they started, what improved and which areas
-				still need attention.
-			</p>
 
 		</div>
 

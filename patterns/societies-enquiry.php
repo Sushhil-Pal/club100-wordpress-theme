@@ -17,44 +17,25 @@
 			<div class="club100-societies-enquiry-copy">
 
 				<p class="club100-eyebrow">
-					SOCIETY ENQUIRY
+					FOR SOCIETY COMMITTEES &amp; COORDINATORS
 				</p>
 
 				<h2>
-					Bring Club100 to Your Community
+					Want to Bring Club100 to Your Community?
 				</h2>
 
 				<p class="club100-societies-enquiry-intro">
-					Tell us a little about your society and we’ll help you structure
-					a fitness program that fits your community, space and participation.
+					If you represent your society, tell us about the community, available
+					space and likely participation. We can help coordinate the onsite launch.
 				</p>
 
 				<div class="club100-societies-enquiry-list">
 
-					<div>
-						<span>✓</span>
-						<p>Fitness assessments</p>
-					</div>
-
-					<div>
-						<span>✓</span>
-						<p>Regular guided fitness sessions</p>
-					</div>
-
-					<div>
-						<span>✓</span>
-						<p>Community challenges and activities</p>
-					</div>
-
-					<div>
-						<span>✓</span>
-						<p>Periodic reassessment</p>
-					</div>
-
-					<div>
-						<span>✓</span>
-						<p>Progress tracking</p>
-					</div>
+					<div><span>✓</span><p>Onsite General Fitness program</p></div>
+					<div><span>✓</span><p>Power, Flow, Pulse and Play</p></div>
+					<div><span>✓</span><p>Individual resident enrollment and payment</p></div>
+					<div><span>✓</span><p>Participation-based resident pricing</p></div>
+					<div><span>✓</span><p>Assessment and progress tracking</p></div>
 
 				</div>
 
@@ -78,7 +59,7 @@
 
 					<?php
 					/*
-					 * Replace 5 with the actual Fluent Forms form ID.
+					 * Existing society enquiry Fluent Forms form.
 					 */
 					echo do_shortcode( '[fluentform id="5"]' );
 					?>
