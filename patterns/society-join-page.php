@@ -211,7 +211,7 @@
 
 					<div class="club100-join-summary-row">
 						<span>Program</span>
-						<strong>General Fitness</strong>
+						<strong>Everyday Fitness</strong>
 					</div>
 
 
@@ -306,7 +306,7 @@
 
 					<div>
 						<span>Program</span>
-						<strong>General Fitness</strong>
+						<strong>Everyday Fitness</strong>
 					</div>
 
 					<div>

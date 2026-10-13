@@ -503,7 +503,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 	const programs = {
-		'general-fitness': 'General Fitness',
+		'general-fitness': 'Everyday Fitness',
 		'weight-management': 'Weight Management',
 		'active-50': 'Active 50+',
 		'sports-fitness': 'Sports Fitness',

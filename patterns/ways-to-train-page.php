@@ -94,10 +94,6 @@
 
 				<h3>Self</h3>
 
-				<div class="club100-plan-capacity">
-					Pre-recorded
-				</div>
-
 				<div class="club100-plan-price">
 					<span class="club100-plan-price-prefix">From</span>
 					<div class="club100-plan-price-main">
@@ -456,7 +452,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 	const programs = {
-        'general-fitness': 'General Fitness',
+        'general-fitness': 'Everyday Fitness',
         'weight-management': 'Weight Management',
         'active-50': 'Active 50+',
         'sports-fitness': 'Sports Fitness',

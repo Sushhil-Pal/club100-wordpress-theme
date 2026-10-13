@@ -47,7 +47,7 @@
 
 				<span class="club100-fitness-program-number">01</span>
 
-				<h3>General Fitness</h3>
+				<h3>Everyday Fitness</h3>
 
 				<p class="club100-fitness-program-tagline">
 					Build complete, balanced fitness.
@@ -63,8 +63,8 @@
 					<span>Endurance</span>
 				</div>
 
-				<a href="/ways-to-train/?program=general-fitness" class="club100-program-link">
-                    Start with General Fitness →
+				<a href="/ways-to-train/?program=everyday-fitness" class="club100-program-link">
+                    Start with Everyday Fitness →
                 </a>
 
 			</div>
@@ -101,7 +101,7 @@
 			<!-- ACTIVE 50+ -->
 			<div class="club100-fitness-program-card">
 
-				<span class="club100-fitness-program-number">04</span>
+				<span class="club100-fitness-program-number">03</span>
 
 				<h3>Active 50+</h3>
 
