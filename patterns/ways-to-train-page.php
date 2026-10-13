@@ -93,6 +93,9 @@
 				</p>
 
 				<h3>Self</h3>
+                <div class="club100-plan-capacity">
+					Self-Paced
+				</div>
 
 				<div class="club100-plan-price">
 					<span class="club100-plan-price-prefix">From</span>
