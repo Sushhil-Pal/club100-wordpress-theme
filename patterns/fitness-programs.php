@@ -63,7 +63,7 @@
 					<span>Endurance</span>
 				</div>
 
-				<a href="/ways-to-train/?program=everyday-fitness" class="club100-program-link">
+				<a href="/ways-to-train/?program=general-fitness" class="club100-program-link">
                     Start with Everyday Fitness →
                 </a>
 
